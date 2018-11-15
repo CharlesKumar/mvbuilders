@@ -10,4 +10,4 @@ new Vue({
   render: h => h(App)
 }).$mount("#app");
 
-stickybits(document.querySelector("header"));
+stickybits(document.querySelector("header"), { useStickyClasses: true });

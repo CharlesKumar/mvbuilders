@@ -10,7 +10,7 @@ node_modules
 
 package-lock.json
 composer.lock
-
+temp.md
 
 # Log files
 npm-debug.log*

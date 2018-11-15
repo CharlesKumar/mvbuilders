@@ -1,6 +1,6 @@
 <template>
   <div id="app" >
-    <header class="flex flex-jcsa">
+    <header class="flex flex-jcsa z-1">
       <div id="brand">
         <h2>MV Builders</h2>
       </div>

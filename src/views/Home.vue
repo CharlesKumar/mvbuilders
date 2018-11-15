@@ -1,17 +1,26 @@
 <template>
-  <div class="home c">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home">
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Carousel :images="images"></Carousel>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Carousel from "@/components/Carousel.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    Carousel
+  },
+  data() {
+    return {
+      images: [
+        { src: require("@/assets/MV1.jpg"), alt: "mv brindhavan apartments" },
+        { src: require("@/assets/MV2.jpg"), alt: "mv dwaraka apartments" }
+      ]
+    };
   }
 };
 </script>
