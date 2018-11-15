@@ -1,0 +1,62 @@
+header {
+  background-color: white;
+  box-shadow: 0px 1px 3px 1px;
+  // background-color: var(--nav-bg-color);
+}
+nav.main-nav {
+  // background-color: white;
+  // background-color: var(--nav-bg-color);
+  display: flex;
+  flex-direction: column;
+  @include media(">tablet") {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .mm-toggle {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    @include media(">tablet") {
+      // visibility: hidden;
+      display: none;
+    }
+  }
+
+  ul.nav-container {
+    list-style-type: none; //bad practice decouple it as seperate list-reset class
+    text-transform: uppercase;
+    // height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: height 0.7s linear;
+    @include media(">tablet") {
+      height: auto;
+      overflow: visible;
+      display: flex;
+      flex-wrap: wrap;
+      // justify-content: flex-end;
+    }
+
+    li.nav-item {
+      flex: 1 0 60px;
+      // height: 40px;
+      display: flex;
+      @include media(">tablet") {
+        max-width: 120px;
+      }
+      align-items: center;
+      transition: background 0.3s linear;
+
+      &:hover {
+        background-color: var(--primary-color);
+      }
+
+      a {
+        text-decoration: none; //bad practice decouple it as seperate nav-link class
+        padding: 4px 10px;
+        width: 100%;
+      }
+    }
+  }
+}

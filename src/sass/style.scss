@@ -1,0 +1,40 @@
+// Rubik, Play, Monda, Orbitron, Armata, Muli:700, Maven+Pro, Chakra+petch, Crete+Round
+// @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Merienda');
+// @import url("https://fonts.googleapis.com/css?family=Electrolize|Jura:500");
+// Your settings for Typesettings :)
+$font-sans: "Julius Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: "Merienda", Georgia, "Times New Roman", serif;
+$font-mono: "Lucida Console", Monaco, monospace;
+$text-color: #000;
+$base-vertical-unit: 6px;
+$base-line-multi: 4;
+$base-font-size: 16px;
+$ms-ratio: 1.414;
+$paragraph-indent: true;
+$paragraph-justify: true;
+$load-typesetted: true;
+$global-init: false; // By default set to false, loaded with typesetted
+
+// @import "vendor/burger";
+// $sass-burger-add-vendor-prefixes: false;
+
+// .main-nav-icon {
+//     @include burger();
+// }
+
+// .mm-toggle.is-open .main-nav-icon {
+//     @include burger-to-cross();
+// }
+
+@import "node_modules/include-media/dist/include-media";
+@import "node_modules/typesettings/typesettings"; // Here is the _typesettings.scss partial
+// @import "~@include-media";
+// @import "~typesettings";
+@import "partials/helpers";
+@import "partials/variables";
+@import "partials/colors";
+@import "partials/mixins";
+@import "partials/nav";
+@import "partials/base";
+@import "partials/effects";

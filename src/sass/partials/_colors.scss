@@ -1,0 +1,23 @@
+.theme {
+    color: var(--text-light);
+    background-color: var(--bg-dark);
+}
+
+.theme-inverse {
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+}
+
+.theme-bw {
+    color: #fff;
+    background-color: #000;
+}
+
+.theme-bw-inverse {
+    color: #000;
+    background-color: #fff;
+}
+
+.theme-2 {
+    color: #000;
+}

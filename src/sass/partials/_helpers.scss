@@ -1,0 +1,127 @@
+.mw-100 {
+    max-width: 100%;
+}
+
+.mw-1200 {
+    max-width: 1200px;
+}
+
+.mh-100v {
+    min-height: 100vh;
+}
+
+.mih-200 {
+  min-height: 200px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.ov-h {
+    overflow: hidden;
+}
+
+.fz12 {
+    font-size: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: .5em;
+    transition: opacity .3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-aic {
+  align-items: center;
+}
+
+.flex-jcc {
+    justify-content: center;
+}
+
+.flex-jcfs {
+  justify-content: flex-start;
+}
+
+.flex-jcfe {
+  justify-content: flex-end;
+}
+
+.flex-jcsa {
+    justify-content: space-around;
+}
+
+.flex-jcsb {
+    justify-content: space-between;
+}
+
+.d-center {
+    margin: 0 auto;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.vac {
+  vertical-align: center;
+}
+
+.vabl {
+  vertical-align: baseline;
+}
+
+// should create mixins for m-x. mh-x, h-x and w-x and also z-x
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 10;
+}
+
+.z-2 {
+    z-index: 20;
+}
+
+.z-max {
+    z-index: 9999;
+}
+
+//  angled edges
+.rot-1 {
+    transform: rotate(0.3deg);
+}
+
+.revrot-1 {
+    transform: rotate(-0.3deg);
+}
+
+.clip-1 {
+    clip-path: polygon(0 1%, 100% 6%, 100% 97%, 0 86%);
+}
+
+.clip-2 {
+    clip-path: polygon(0 1%, 100% 15%, 100% 97%, 0 83%);
+}
+
+.columnize {
+    // columns: 240px 2;
+    columns: 320px;
+    @include media('>desktop') {
+        columns: 3;
+    }
+}

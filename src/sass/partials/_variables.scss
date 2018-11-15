@@ -1,0 +1,30 @@
+// $color1: rgba(231, 32, 32, 1);
+// $color2: rgba(255, 255, 255, 1);
+// $color3: rgba(40, 40, 40, 1);
+// $color4: rgba(125, 20, 27, 1);
+// $color5: rgba(0, 0, 0, 1);
+
+$color1: rgba(239, 71, 111, 1);
+$color2: rgba(255, 209, 102, 1);
+$color3: rgba(6, 214, 160, 1);
+$color4: rgba(17, 138, 178, 1);
+$color5: 'rgba(7, 59, 76, 1)';
+
+:root {
+  --primary-color: rgba(17, 138, 178, 1);
+  --bg-primary: rgba(255, 209, 102, 1);
+  --nav-bg-color: rgba(255, 209, 102, 1);
+  --bg-dark: rgba(7, 59, 76, 1);
+  --bg-light: rgba(255, 209, 102, 1);
+  --text-primary: #e4c;
+  --text-dark: #{$color5};
+  --text-light: #fff;
+  --link-color: rgba(125, 20, 27, 1);
+  --font-stack: "Monda", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-xs: 0.75 rem;
+  --font-sm: 1 rem;
+  --font-md: 1.25 rem;
+  --font-lg: 1.5 rem;
+  --bm-top: 30px;
+  --bm-left: 10px;
+}
