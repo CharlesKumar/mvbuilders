@@ -83,6 +83,24 @@
   vertical-align: baseline;
 }
 
+.poa {
+  position: absolute;
+}
+
+.por {
+  position: relative;
+}
+
+.place--tl {
+  top: 0;
+  left: 0;
+}
+
+.place--center {
+  top: 40%;
+  left: 40%;
+}
+
 // should create mixins for m-x. mh-x, h-x and w-x and also z-x
 
 .z-0 {

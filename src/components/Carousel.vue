@@ -1,7 +1,15 @@
 <template lang="html">
     <div class="carousel">
 
-      <img v-for="image in images" :src="image.src"  :alt="image.alt" :key="image.src" class="mw-100">
+      <!-- <img v-for="image in images" :src="image.src"  :alt="image.alt" :key="image.src" class="mw-100"> -->
+
+      <div class="slidewrap por" v-for="image in images" :key="image.src">
+        <div class="overlay">
+          <p class="highlight--underline">{{image.caption}}</p>
+          <h1>{{image.heading}}</h1>
+        </div>
+        <img  :src="image.src"  :alt="image.alt" >
+      </div>
 
     </div>
 </template>
@@ -51,8 +59,9 @@ export default {
     left: 40%;
     z-index: 1;
   }
-  .tns-item {
+  .tns-item img {
     // max-width: 100%;
+    width: calc(100%);
     object-fit: cover;
     object-position: center center;
   }

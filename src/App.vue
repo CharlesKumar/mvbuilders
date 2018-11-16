@@ -2,10 +2,11 @@
   <div id="app" >
     <header class="flex flex-jcsa z-1">
       <div id="brand">
-        <h2>MV Builders</h2>
+        <h3>MV Builders</h3>
       </div>
       <nav class="main-nav">
-        <ul class="nav-container">
+        <button id="mm-toggle" class="btn mm-toggle">Menu</button>
+        <ul id="nav-roller" class="nav-container">
           <li class="nav-item"><router-link to="/">Home</router-link></li>
           <li class="nav-item"><router-link to="/about">About</router-link></li>
           <!-- <li class="nav-item"><a href=""></a></li>
@@ -36,5 +37,10 @@
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.top--adjust {
+  position: relative;
+  top: 80px;
 }
 </style>

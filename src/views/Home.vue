@@ -2,6 +2,8 @@
   <div class="home">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Carousel :images="images"></Carousel>
+    <h1>A warm welcome from MV builders</h1>
+
   </div>
 </template>
 
@@ -17,8 +19,18 @@ export default {
   data() {
     return {
       images: [
-        { src: require("@/assets/MV1.jpg"), alt: "mv brindhavan apartments" },
-        { src: require("@/assets/MV2.jpg"), alt: "mv dwaraka apartments" }
+        {
+          src: require("@/assets/MV1.jpg"),
+          alt: "mv brindhavan apartments",
+          heading: "MV Vistara",
+          caption: "caption for the photo"
+        },
+        {
+          src: require("@/assets/MV2.jpg"),
+          alt: "mv dwaraka apartments",
+          heading: "MV Vistara",
+          caption: "caption for the photo"
+        }
       ]
     };
   }
