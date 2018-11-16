@@ -6,7 +6,7 @@
       <div class="slidewrap por" v-for="image in images" :key="image.src">
         <div class="overlay">
           <p class="highlight--underline">{{image.caption}}</p>
-          <h1>{{image.heading}}</h1>
+          <h1 class="highlight--underline">{{image.heading}}</h1>
         </div>
         <img  :src="image.src"  :alt="image.alt" >
       </div>
@@ -32,6 +32,7 @@ export default {
       items: 1,
       controls: false,
       autoplayButtonOutput: false,
+      autoHeight: false,
       // nav: false,
       // fixedWidth: 1200,
       // autoWidth: true,
@@ -59,11 +60,13 @@ export default {
     left: 40%;
     z-index: 1;
   }
-  .tns-item img {
-    // max-width: 100%;
-    width: calc(100%);
-    object-fit: cover;
-    object-position: center center;
+  .tns-item {
+    img {
+      // max-width: 100%;
+      width: calc(100%);
+      object-fit: cover;
+      object-position: center center;
+    }
   }
 }
 </style>

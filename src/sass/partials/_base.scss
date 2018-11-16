@@ -1,44 +1,40 @@
-@include spacing('m', 'margin', 3);
-@include spacing('mt', 'margin-top', 3);
-@include spacing('mb', 'margin-bottom', 3);
-@include spacing('ml', 'margin-left', 3);
-@include spacing('mr', 'margin-right', 3);
-@include spacing('p', 'padding', 3);
-@include spacing('pt', 'padding-top', 3);
-@include spacing('pb', 'padding-bottom', 3);
-@include spacing('pl', 'padding-left', 3);
-@include spacing('pr', 'padding-right', 3);
+@include spacing("m", "margin", 3);
+@include spacing("mt", "margin-top", 3);
+@include spacing("mb", "margin-bottom", 3);
+@include spacing("ml", "margin-left", 3);
+@include spacing("mr", "margin-right", 3);
+@include spacing("p", "padding", 3);
+@include spacing("pt", "padding-top", 3);
+@include spacing("pb", "padding-bottom", 3);
+@include spacing("pl", "padding-left", 3);
+@include spacing("pr", "padding-right", 3);
 
-$brkpoints : (
-    sm: 320px,
-    md: 768px,
-    lg: 1024px
+$brkpoints: (
+  sm: 320px,
+  md: 768px,
+  lg: 1024px
 );
 
 @include hidebp($brkpoints);
 @include flexgrid($brkpoints, 4, 0.5em);
-
 // *, *:*, *::* {
-//   box-sizing: border-box;
+// box-sizing: border-box;
 // }
-
 // overflow-wrap, word-wrap, word-break, hyphens
-
 .c-fluid,
 .c {
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
-  padding: 1em .5em;
+  padding: 1em 0.5em;
 }
-
 .c-fluid {
   padding-right: 2rem;
   padding-left: 2rem;
 }
-
 .row {
   box-sizing: border-box;
+
   display: flex;
   flex: 0 1 auto;
   flex-direction: row;
@@ -47,8 +43,7 @@ $brkpoints : (
   // margin-right: -0.5rem;
   // margin-left: -0.5rem;
 }
-
-[class|=col] {
+[class|="col"] {
   padding: 1em;
 }
 
@@ -61,18 +56,19 @@ $brkpoints : (
 }
 
 .card {
-  max-width: 300px;
+  max-width: 620px;
   box-shadow: 0 10px 6px -6px #777;
-  @include media(">tablet"){
-    max-width: 400px;
+  @include media(">tablet") {
+    // max-width: 400px;
   }
   .card-body {
     padding: 1em;
   }
 }
-
-.highlight--underline::after {
-    content: '';
+.highlight--underline {
+  // box-sizing: content-box;
+  &::after {
+    content: "";
     position: absolute;
     margin: auto;
     right: 0;
@@ -81,8 +77,8 @@ $brkpoints : (
     width: 50%;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.65);
+  }
 }
-
 .carousel .slidewrap .overlay {
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
@@ -96,7 +92,6 @@ $brkpoints : (
   justify-content: center;
   align-items: center;
 }
-
 body {
   background-color: var(--primary-color);
   // background-image: radial-gradient(white, var(--primary-color));
@@ -105,54 +100,49 @@ body {
   // font-family: 'Monda', sans-serif;
   transition: opacity 0.3s linear;
 }
-
-.banner-container {
-  max-height: 400px;
-  overflow: hidden;
-  position: relative;
-  .banner-overlay{
-    position: absolute;
-    color: white;
-    // can width height inherit warranty the same behavior in all browsers
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+// .banner-container {
+// max-height: 400px;
+// overflow: hidden;
+// position: relative;
+// .banner-overlay{
+// position: absolute;
+// color: white;
+// // can width height inherit warranty the same behavior in all browsers
+// width: 100%;
+// height: 100%;
+// background: rgba(0, 0, 0, 0.4);
+// }
+// }
+.herobanner-container {
+  .herobanner {
+    padding: 10px;
+    text-align: center;
+    @include media(">tablet") {
+      font-size: 1.8em;
+      padding: 2em 0.5em;
+    }
   }
 }
 
-// .herobanner-container {
-//   .herobanner {
-//     padding: 10px;
-//     text-align: center;
-//     @include media(">tablet") {
-//       font-size: 1.8em;
-//       padding: 2em .5em;
-//     }
-//   }
-// }
-
-#proverbs p {
-  text-indent: -1em;
-  padding: .75em 3em;
-  // padding-left: 3em;
-  line-height: 2;
-  font-size: 1.1em;
+.warn-site {
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 2px solid red;
 }
 
 footer {
-    background-color: var(--bg-dark);
-    color: var(--bg-light);
-    min-height: 100px;
+  margin-top: 40px;
+  padding-top: 40px;
+  background-color: black;
+  // background-color: var(--bg-dark);
+  color: var(--bg-light);
+  min-height: 100px;
 }
-
 @include media(">desktop") {
-  body{
-
+  body {
   }
 }
-
 // * {
-//   background: #000 !important;
-//   color: #fff !important;
-//   outline: 1px solid gray;
+// background: #000 !important;
+// color: #fff !important;
+// outline: 1px solid gray;
 // }

@@ -21,13 +21,14 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quos, nulla. Distinctio laudantium fugiat dolore, aliquid nobis voluptates sunt! Fugit nesciunt, explicabo autem facilis quod molestiae asperiores odit. Non, modi.
         </div>
         <div class="col-md3">
-          <p>copyright &copy; 2018</p>
+          <p>footer links goes here</p>
         </div>
         <div class="col-md3">
           <h4>About</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat accusantium aliquam veniam tempore ea delectus aliquid dolores laudantium, impedit repudiandae expedita architecto, vero quisquam odio vel? Nemo, impedit cupiditate repellat.</p>
         </div>
       </div>
+      <p class="m0 p2">&copy; 2018 - Crayola Design Studio</p>
     </footer>
   </div>
 </template>
