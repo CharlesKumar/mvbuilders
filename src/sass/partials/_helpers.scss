@@ -181,3 +181,26 @@
   width: 64px;
   height: 64px;
 }
+
+.mono {
+  font-family: "Lucida Console", monospace;
+  font-weight: 400;
+}
+
+.para {
+  max-width: 640px;
+}
+
+.bg-attached {
+  background-attachment: fixed;
+}
+
+.hero-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-padding {
+  padding-top: 50px ;
+  padding-bottom: 50px ;
+}

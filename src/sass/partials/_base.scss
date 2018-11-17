@@ -16,6 +16,7 @@ $brkpoints: (
 );
 
 @include hidebp($brkpoints);
+@include hidebpreverse($brkpoints);
 @include flexgrid($brkpoints, 4, 0.5em);
 // *, *:*, *::* {
 // box-sizing: border-box;
@@ -125,6 +126,16 @@ body {
 // background: rgba(0, 0, 0, 0.4);
 // }
 // }
+
+.accordion .accordion-set .accordion-data{
+  height: 0;
+  overflow: hidden;
+}
+
+.accordion .accordion-set h3 {
+  cursor: pointer;
+}
+
 .herobanner-container {
   .herobanner {
     padding: 10px;
