@@ -2,7 +2,7 @@
   <div id="app" >
     <header class="flex flex-jcsa z-1">
       <div id="brand">
-        <h3>MV Builders</h3>
+        <img src="@/assets/mvlogo.png" alt="" id="logo"><h3 class="inline-block vat">Builders</h3>
       </div>
       <nav class="main-nav">
         <button id="mm-toggle" class="btn mm-toggle">Menu</button>

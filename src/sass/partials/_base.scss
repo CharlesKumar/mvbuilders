@@ -96,10 +96,22 @@ body {
   background-color: var(--primary-color);
   // background-image: radial-gradient(white, var(--primary-color));
   // background-image: radial-gradient(var(--primary-color), lighten($color4, 10%));
-  background-image: radial-gradient(lighten($color2, 30%), #eeeeee);
+  background-image: radial-gradient(lighten($color2, 30%), #eff4f7);
   // font-family: 'Monda', sans-serif;
   transition: opacity 0.3s linear;
 }
+
+#brand img#logo {
+  width: 50px;
+  @include media(">tablet"){
+    width: 100px;
+  }
+}
+
+#brand h3 {
+  line-height: 2;
+}
+
 // .banner-container {
 // max-height: 400px;
 // overflow: hidden;

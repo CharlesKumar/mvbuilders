@@ -33,6 +33,15 @@
         </Card>
       </div>
     </div>
+    <h2 class="c">Client Reviews</h2>
+    <div class="row c">
+      <div class="col-md2">
+        <Review :reviews="reviews[0]"></Review>
+      </div>
+      <div class="col-md2">
+        <Review :reviews="reviews[1]"></Review>
+      </div>
+    </div>
 
   </div>
 </template>
@@ -41,12 +50,14 @@
 // @ is an alias to /src
 import Carousel from "@/components/Carousel.vue";
 import Card from "@/components/Card.vue";
+import Review from "@/components/Review.vue";
 
 export default {
   name: "home",
   components: {
     Carousel,
-    Card
+    Card,
+    Review
   },
   data() {
     return {
@@ -62,6 +73,20 @@ export default {
           alt: "mv dwaraka apartments",
           heading: "MV Builders",
           caption: "Friendly Companion for Construction Business"
+        }
+      ],
+      reviews: [
+        {
+          review:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore non nostrum ullam eaque iure, ipsum fugit iusto! Saepe vel placeat, aliquid iure, maiores necessitatibus accusamus sequi iusto neque suscipit numquam.",
+          reviewer: "Mr. Client",
+          designation: "well known designation"
+        },
+        {
+          review:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore non nostrum ullam eaque iure, ipsum fugit iusto! Saepe vel placeat, aliquid iure, maiores necessitatibus accusamus sequi iusto neque suscipit numquam.",
+          reviewer: "Mrs. Client",
+          designation: "well known designation"
         }
       ]
     };
