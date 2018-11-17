@@ -1,6 +1,7 @@
 <template>
-  <div class="about top--adjust c">
-    <h1>This is an about page</h1>
+  <div class="about">
+    <div class="h-300 pinot-noir__gradient"></div>
+    <h1 class="c">This is an about page</h1>
   </div>
 </template>
 

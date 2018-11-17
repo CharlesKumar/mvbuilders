@@ -1,0 +1,35 @@
+.vine__gradient {
+  background: #00bf8f; /* fallback for old browsers */
+  background: linear-gradient(
+    to left,
+    #001510,
+    #00bf8f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.twitch__gradient {
+  background: #6441a5; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.purple-bliss__gradient {
+  background: #360033; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #0b8793,
+    #360033
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pinot-noir__gradient {
+  background: #4b6cb7; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

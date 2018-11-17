@@ -107,15 +107,15 @@
   position: relative;
 }
 
-.place--tl {
-  top: 0;
-  left: 0;
-}
-
-.place--center {
-  top: 40%;
-  left: 40%;
-}
+// .place--tl {
+//   top: 0;
+//   left: 0;
+// }
+//
+// .place--center {
+//   top: 40%;
+//   left: 40%;
+// }
 
 // should create mixins for m-x. mh-x, h-x and w-x and also z-x
 
@@ -136,26 +136,40 @@
 }
 
 //  angled edges
-.rot-1 {
-    transform: rotate(0.3deg);
+// .rot-1 {
+//     transform: rotate(0.3deg);
+// }
+//
+// .revrot-1 {
+//     transform: rotate(-0.3deg);
+// }
+//
+// .clip-1 {
+//     clip-path: polygon(0 1%, 100% 6%, 100% 97%, 0 86%);
+// }
+//
+// .clip-2 {
+//     clip-path: polygon(0 1%, 100% 15%, 100% 97%, 0 83%);
+// }
+
+// .columnize {
+//     // columns: 240px 2;
+//     columns: 320px;
+//     @include media('>desktop') {
+//         columns: 3;
+//     }
+// }
+
+.list-reset {
+  list-style-type: none;
 }
 
-.revrot-1 {
-    transform: rotate(-0.3deg);
+.icon-xsmall {
+  width: 32px;
+  height: 32px;
 }
 
-.clip-1 {
-    clip-path: polygon(0 1%, 100% 6%, 100% 97%, 0 86%);
-}
-
-.clip-2 {
-    clip-path: polygon(0 1%, 100% 15%, 100% 97%, 0 83%);
-}
-
-.columnize {
-    // columns: 240px 2;
-    columns: 320px;
-    @include media('>desktop') {
-        columns: 3;
-    }
+.icon-small {
+  width: 64px;
+  height: 64px;
 }

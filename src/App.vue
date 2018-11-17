@@ -9,6 +9,8 @@
         <ul id="nav-roller" class="nav-container">
           <li class="nav-item"><router-link to="/">Home</router-link></li>
           <li class="nav-item"><router-link to="/about">About</router-link></li>
+          <li class="nav-item"><router-link to="/project">Projects</router-link></li>
+          <li class="nav-item"><router-link to="/contact">Contact</router-link></li>
           <!-- <li class="nav-item"><a href=""></a></li>
           <li class="nav-item"><a href=""></a></li> -->
         </ul>
@@ -18,10 +20,18 @@
     <footer>
       <div class="row">
         <div class="col-md3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, quos, nulla. Distinctio laudantium fugiat dolore, aliquid nobis voluptates sunt! Fugit nesciunt, explicabo autem facilis quod molestiae asperiores odit. Non, modi.
+          <h4>Contact</h4>
+          <div><img src="@/assets/smartphone-ringing.svg" alt="" class="icon-xsmall mr2"> <a class="c-white" href="tel:+919842430871">9842430871</a></div>
+          <div><img src="@/assets/envelope.svg" alt="" class="icon-xsmall mr2"> <a class="c-white" href="mailto:murlidhar28@gmail.com">murlidhar28@gmail.com</a></div>
         </div>
         <div class="col-md3">
-          <p>footer links goes here</p>
+          <p>Quick links</p>
+          <ul class="list-reset">
+            <li class="nav-item"><router-link to="/">Home</router-link></li>
+            <li class="nav-item"><router-link to="/about">About</router-link></li>
+            <li class="nav-item"><router-link to="/project">Projects</router-link></li>
+            <li class="nav-item"><router-link to="/contact">Contact</router-link></li>
+          </ul>
         </div>
         <div class="col-md3">
           <h4>About</h4>
