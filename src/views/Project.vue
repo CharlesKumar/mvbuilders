@@ -48,7 +48,6 @@ export default {
     for (let i = 0; i < accordionTriggers.length; i++) {
       accordionTriggers[i].addEventListener("click", function() {
         this.nextSibling.classList.toggle("h-show");
-        console.log(this.nextSibling);
       });
     }
   }

@@ -36,6 +36,7 @@
 
 .btn {
     text-decoration: none;
+    cursor: pointer;
     padding: .5em;
     transition: opacity .3s;
     &:hover {
@@ -51,8 +52,16 @@
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-aic {
   align-items: center;
+}
+
+.flex-aib {
+  align-items: baseline;
 }
 
 .flex-jcc {
