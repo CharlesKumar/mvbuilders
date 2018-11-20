@@ -1,6 +1,11 @@
 <template lang="html">
   <div id="contact-page">
-    <div class="h-300 twitch__gradient"></div>
+    <div class="h-300 twitch__gradient">
+      <div class="c c-white flex flex-col flex-aic flex-jcc h-100p">
+        <h2>MV Builders</h2>
+        <h5>Good Contacts builds up the valuable harmony</h5>
+      </div>
+    </div>
     <h1 class="c">Feel Free to Contact Us</h1>
     <p class="c"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit soluta, quis ducimus eum magni nostrum repellendus nobis, deserunt, aperiam accusantium inventore vero aliquam mollitia assumenda rem cumque, quo ea.</span><span>Voluptas commodi repellat totam, suscipit ad voluptatibus tempora vero, asperiores atque cum. Quaerat similique est laudantium, praesentium aperiam. Consequuntur quos consequatur, quam nihil minima architecto enim cum iste tempora ea?</span></p>
     <div class="flex flex-aib c">

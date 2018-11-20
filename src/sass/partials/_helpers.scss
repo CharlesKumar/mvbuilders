@@ -18,6 +18,10 @@
   width: 100px;
 }
 
+.h-100p {
+  height: 100%;
+}
+
 .h-300 {
     height: 300px;
 }
@@ -46,6 +50,14 @@
 
 .m0{
   margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.ttu {
+  text-transform: uppercase;
 }
 
 .flex {
@@ -179,6 +191,10 @@
 
 .list-reset {
   list-style-type: none;
+}
+
+.list-checked {
+  list-style-image: url("/checked.png");
 }
 
 .icon-xsmall {

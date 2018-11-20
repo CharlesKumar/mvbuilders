@@ -26,7 +26,7 @@
         </div>
         <div class="col-md3">
           <p>Quick links</p>
-          <ul class="list-reset">
+          <ul class="list-reset m0 p0">
             <li class="nav-item"><router-link to="/">Home</router-link></li>
             <li class="nav-item"><router-link to="/about">About</router-link></li>
             <li class="nav-item"><router-link to="/project">Projects</router-link></li>

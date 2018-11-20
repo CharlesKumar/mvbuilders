@@ -7,7 +7,26 @@
       <p><mark>please note:</mark> The website mvbuilders.in is under Construction.</p>
       <p>You may see irrelevant information and layout during this period.</p>
     </div>
-    <div class="row">
+    <div class="c tac">
+      <h2>Our Current Project <br> <small>MV Vistara Apartments</small></h2>
+    </div>
+    <div class="row c">
+      <div class="col-sm2">
+        <img src="@/assets/MV1.jpg" alt="" class="mw-100 h-400">
+      </div>
+      <div class="col-sm2">
+        <h3>MV Vistara</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, explicabo amet accusantium, ratione suscipit, similique repellat eos asperiores ipsam praesentium corrupti. Omnis nisi quisquam sequi, harum, iusto repellat nihil optio!</p>
+        <h4>Location Advantages</h4>
+        <ul class="list-checked">
+          <li>700 Meter from Srirangam Thayar Sannadhi.</li>
+          <li>Lush Green Environment</li>
+          <li>2km from Bus Stand/Railway Station.</li>
+          <li>3km from Government Butterfly Park.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="row">
       <div class="col-md2">
         <Card ctitle="Pleasant Atmosphere">
           <div slot="cbody">
@@ -32,7 +51,7 @@
           </div>
         </Card>
       </div>
-    </div>
+    </div> -->
     <h2 class="c">Client Reviews</h2>
     <div class="row c">
       <div class="col-md2">
@@ -49,14 +68,12 @@
 <script>
 // @ is an alias to /src
 import Carousel from "@/components/Carousel.vue";
-import Card from "@/components/Card.vue";
 import Review from "@/components/Review.vue";
 
 export default {
   name: "home",
   components: {
     Carousel,
-    Card,
     Review
   },
   data() {
