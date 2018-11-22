@@ -103,9 +103,9 @@ body {
 }
 
 #brand img#logo {
-  width: 50px;
+  width: 40px;
   @include media(">tablet"){
-    width: 100px;
+    width: 60px;
   }
 }
 
