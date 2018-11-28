@@ -30,6 +30,10 @@
     height: 400px;
 }
 
+.h-500 {
+  height: 500px;
+}
+
 .ov-h {
     overflow: hidden;
 }
@@ -212,12 +216,16 @@
   font-weight: 400;
 }
 
+.times {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
 .para {
   max-width: 640px;
 }
 
 .bg-attached {
-  background-attachment: fixed;
+  background-attachment: fixed !important;
 }
 
 .hero-margin {

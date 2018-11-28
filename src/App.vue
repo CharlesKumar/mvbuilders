@@ -2,7 +2,7 @@
   <div id="app" >
     <header class="flex flex-jcsa z-1">
       <div id="brand">
-        <img src="@/assets/mvlogo.png" alt="" id="logo"><h3 class="inline-block vat">Builders</h3>
+        <img src="@/assets/mvlogo.png" alt="" id="logo"><h3 class="inline-block times vat ttu">Builders</h3>
       </div>
       <nav class="main-nav">
         <button id="mm-toggle" class="btn mm-toggle">Menu</button>
@@ -34,8 +34,10 @@
           </ul>
         </div>
         <div class="col-md3">
-          <h4>About</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat accusantium aliquam veniam tempore ea delectus aliquid dolores laudantium, impedit repudiandae expedita architecto, vero quisquam odio vel? Nemo, impedit cupiditate repellat.</p>
+          <!-- <h4>About</h4>
+          <p><span class="times ttu">MV Builders</span> </p> -->
+          <h5>Member of <span class="ttu">credai</span></h5>
+          <img src="@/assets/credai.png" alt="" class="mw-100" style="width: 240px;">
         </div>
       </div>
       <p class="m0 p2">&copy; 2018 - Crayola Design Studio</p>

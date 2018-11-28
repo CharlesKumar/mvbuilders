@@ -6,7 +6,7 @@
       <div class="slidewrap por" v-for="image in images" :key="image.src">
         <div class="overlay">
           <p class="highlight--underline">{{image.caption}}</p>
-          <h1 class="highlight--underline">{{image.heading}}</h1>
+          <h1 class="highlight--underline times ttu">{{image.heading}}</h1>
         </div>
         <img  :src="image.src"  :alt="image.alt" >
       </div>

@@ -2,21 +2,21 @@
   <div class="home">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Carousel :images="images"></Carousel>
-    <h1 class="c">A warm welcome from MV builders</h1>
+    <h1 class="c">A warm welcome from <span class="times ttu">MV Builders</span></h1>
     <div class="warn-site c">
       <p><mark>please note:</mark> The website mvbuilders.in is under Construction.</p>
       <p>You may see irrelevant information and layout during this period.</p>
     </div>
     <div class="c tac">
-      <h2>Our Current Project <br> <small>MV Vistara Apartments</small></h2>
+      <h2>Our Current Project <br> <small class="times">MV Vistara Homes</small></h2>
     </div>
     <div class="row c">
-      <div class="col-sm2">
-        <img src="@/assets/MV1.jpg" alt="" class="mw-100 h-400">
+      <div class="col-md2">
+        <img src="@/assets/MV2.jpg" alt="" class="mw-100">
       </div>
-      <div class="col-sm2">
+      <div class="col-md2">
         <h3>MV Vistara</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, explicabo amet accusantium, ratione suscipit, similique repellat eos asperiores ipsam praesentium corrupti. Omnis nisi quisquam sequi, harum, iusto repellat nihil optio!</p>
+        <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, have the entire people in the Universe have the ambition to live at their lifetime especially during their retired livinghoods. As our project situated very near to thayar sannadhi and the first project in srirangam having the mandatory registration with RERA numbered as 16/2018(verify) we hope MV Vistara will fulfill the ambitions of srirangam loving people spread over the entire Universe.</p>
         <h4>Location Advantages</h4>
         <ul class="list-checked">
           <li>700 Meter from Srirangam Thayar Sannadhi.</li>
@@ -80,7 +80,7 @@ export default {
     return {
       images: [
         {
-          src: require("@/assets/MV1.jpg"),
+          src: require("@/assets/MV2.jpg"),
           alt: "mv brindhavan apartments",
           heading: "MV Vistara",
           caption: "caption for the photo"
