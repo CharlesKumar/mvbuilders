@@ -5,6 +5,7 @@ function attachNavEvent() {
   mainNavToggle.addEventListener("click", function(e) {
     e.preventDefault();
     toggleClass(navRoller, "h-show");
+    toggleClass(mainNavToggle, "menu-active");
   });
 }
 

@@ -31,6 +31,8 @@ $global-init: false; // By default set to false, loaded with typesetted
 @import "node_modules/typesettings/typesettings"; // Here is the _typesettings.scss partial
 // @import "~@include-media";
 // @import "~typesettings";
+
+@import "vendor/burger";
 @import "partials/helpers";
 @import "partials/variables";
 @import "partials/colors";

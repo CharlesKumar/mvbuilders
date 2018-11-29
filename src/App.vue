@@ -5,7 +5,7 @@
         <img src="@/assets/mvlogo.png" alt="" id="logo"><h3 class="inline-block times vat ttu">Builders</h3>
       </div>
       <nav class="main-nav">
-        <button id="mm-toggle" class="btn mm-toggle">Menu</button>
+        <button id="mm-toggle" class="btn mm-toggle burger"></button>
         <ul id="nav-roller" class="nav-container">
           <li class="nav-item"><router-link to="/">Home</router-link></li>
           <li class="nav-item"><router-link to="/about">About</router-link></li>
@@ -55,5 +55,13 @@
 .top--adjust {
   position: relative;
   top: 80px;
+}
+
+[v-cloak] > * {
+  display: none;
+}
+
+[v-cloak]::before {
+  content: "loading…";
 }
 </style>

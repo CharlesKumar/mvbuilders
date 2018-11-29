@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="carousel">
+    <div class="carousel" v-cloak>
 
       <!-- <img v-for="image in images" :src="image.src"  :alt="image.alt" :key="image.src" class="mw-100"> -->
 
