@@ -73,6 +73,16 @@
         <Review :reviews="reviews[1]"></Review>
       </div> -->
     </div>
+    <!-- <img src="@/assets/main_cover.jpg" alt="" class=""> -->
+    <div class="h-500" style="background: url('/main_cover.jpg') 30% 0% no-repeat; background-size: cover;">
+      <div class="row">
+        <div class="col-md2"></div>
+        <div class="col-md2 c lg-hide">
+          <h2 class="c c-white">Temple City</h2>
+          <h3 class="c c-white">Peaceful place for you</h3>
+        </div>
+      </div>
+    </div>
 
   </div>
 </template>
@@ -97,7 +107,7 @@ export default {
           src: require("@/assets/MV2.jpg"),
           alt: "mv brindhavan apartments",
           heading: "MV Vistara",
-          caption: "caption for the photo"
+          caption: "defines itself"
         },
         {
           src: require("@/assets/MV2.jpg"),
@@ -135,6 +145,7 @@ export default {
       gutter: 0,
       controls: false,
       autoplayButtonOutput: false,
+      autoplayHoverPause: true,
       // autoHeight: true,
       // nav: false,
       // fixedWidth: 1200,

@@ -18,7 +18,7 @@
       <p class="para d-center">All our projects earlier and now are situated in a lush green environment and we have a policy to provide a healthy positive atmosphere for the clients, daylight optimized architecture, adequate water supply, sanitary, road facilities and in particular (good uninterupted ) electric supply. In addition all our projects each house will have a marked car parking slot, modular kitchenate for kitchens, builtin wardrobes, lofts and lockers with wooden interiors for the bedrooms.</p>
       <h2 class="c tac">Our Guides</h2>
       <p class="para d-center">We got professional guidance from our beloved architect having experienced and specialized in floor plans plotted as per vasthu specifications and a good support from our structural consultant having the details in support to our architects vision. We proudly confers all our apartment buildings so far sold and doing now are with 100 percent vasthu compliance.</p>
-    </div>
+    </div> <!-- hidden  -->
     <div class="c">
       <h2 class="c tac times ttu">MV Builders<br> <small class="mono">yours friendly Companion</small></h2>
       <p class="para d-center"><span>We are widely known for lucid way of choosing grounds for construction in green expansive environment. Our immense experience in apartment building with affordable price range attracts the buyers easily. We also provide clear title and legal opinion from eminent lawyers. Our floor plans according to vasthu and sense of architecture with day light optimization, ventillation optimization, etc., are quite impressive. We are well known for using quality tools in construction, quality workers and quality jobs to provide complete housing solution.</span></p>
@@ -41,6 +41,17 @@
         <div class="col-md2">
           <h2 class="c tac">Our Guides</h2>
           <p class="para d-center">We got professional guidance from our beloved architect having experienced and specialized in floor plans plotted as per vasthu specifications and a good support from our structural consultant having the details in support to our architects vision. We proudly confers all our apartment buildings so far sold and doing now are with 100 percent vasthu compliance.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md2">
+          <h2 class="c tac">Future Proof</h2>
+          <ul class="list-checked">
+            <li>RERA registered</li>
+            <li>legal title/opinion from eminent lawyerd</li>
+            <li hidden="true">lightning/storm earthquakeproof</li>
+            <li>ground water level proof with cauvery and kollidam on either side</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -87,6 +98,7 @@
       </div>
     </div>
     <div class="bg-attached h-500" style="background: url('https://source.unsplash.com/1920x800?construction');">
+
     </div>
   </div>
 </template>
