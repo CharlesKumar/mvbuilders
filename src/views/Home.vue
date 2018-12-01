@@ -54,10 +54,10 @@
     </div> -->
     <h2 class="c">Client Reviews</h2>
     <div class="c review-slider">
-      <div class="">
+      <div class="w-100p review-c">
         <Review :reviews="reviews[0]"></Review>
       </div>
-      <div class="">
+      <div class="w-100p review-c">
         <Review :reviews="reviews[1]"></Review>
       </div>
       <!-- <div class="">
@@ -81,8 +81,8 @@
 // @ is an alias to /src
 import Carousel from "@/components/Carousel.vue";
 import Review from "@/components/Review.vue";
-// import { tns } from "@/../node_modules/tiny-slider/src/tiny-slider";
-// import "@/../node_modules/tiny-slider/dist/tiny-slider.css";
+import { tns } from "@/../node_modules/tiny-slider/src/tiny-slider";
+import "@/../node_modules/tiny-slider/dist/tiny-slider.css";
 
 export default {
   name: "home",
@@ -125,21 +125,38 @@ export default {
     };
   },
   mounted() {
-    // tns({
-    //   container: ".review-slider",
-    //   mode: "carousel",
-    //   items: 2,
-    //   edgePadding: 10,
-    //   controls: false,
-    //   autoplayButtonOutput: false,
-    //   // autoHeight: true,
-    //   // nav: false,
-    //   // fixedWidth: 1200,
-    //   autoWidth: true,
-    //   // slideBy: "page",
-    //   slideBy: 1,
-    //   autoplay: true
-    // });
+    tns({
+      container: ".review-slider",
+      items: 1,
+      mode: "carousel",
+      lazyload: true,
+      mouseDrag: true,
+      // edgePadding: 10,
+      gutter: 0,
+      controls: false,
+      autoplayButtonOutput: false,
+      // autoHeight: true,
+      // nav: false,
+      // fixedWidth: 1200,
+      autoWidth: true,
+      slideBy: "page",
+      // slideBy: 1,
+      autoplay: true,
+      responsive: {
+        300: {
+          disable: true
+        },
+        960: {
+          disable: false
+        }
+      }
+    });
   }
 };
 </script>
+
+<style lang="scss">
+.home .tns-inner {
+  background-color: rgb(250, 235, 215);
+}
+</style>

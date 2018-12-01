@@ -22,6 +22,9 @@ export default {
 <style lang="scss">
 .review {
   background-color: rgb(250, 235, 215);
+  p {
+    max-width: 60%;
+  }
   .review-img {
     border-radius: 50%;
     width: 240px !important;
