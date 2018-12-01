@@ -56,8 +56,8 @@ export default {
   }
   .tns-nav {
     position: absolute;
-    bottom: 10px;
-    left: 40%;
+    bottom: 30px;
+    left: 47%;
     z-index: 1;
   }
   .tns-item {

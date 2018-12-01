@@ -53,13 +53,25 @@
       </div>
     </div> -->
     <h2 class="c">Client Reviews</h2>
-    <div class="row c">
-      <div class="col-md2">
+    <div class="c review-slider">
+      <div class="">
+        <Review :reviews="reviews[0]"></Review>
+      </div>
+      <div class="">
+        <Review :reviews="reviews[1]"></Review>
+      </div>
+      <!-- <div class="">
+        <Review :reviews="reviews[1]"></Review>
+      </div>
+      <div class="">
+        <Review :reviews="reviews[1]"></Review>
+      </div> -->
+      <!-- <div class="col-md2">
         <Review :reviews="reviews[0]"></Review>
       </div>
       <div class="col-md2">
         <Review :reviews="reviews[1]"></Review>
-      </div>
+      </div> -->
     </div>
 
   </div>
@@ -69,6 +81,8 @@
 // @ is an alias to /src
 import Carousel from "@/components/Carousel.vue";
 import Review from "@/components/Review.vue";
+// import { tns } from "@/../node_modules/tiny-slider/src/tiny-slider";
+// import "@/../node_modules/tiny-slider/dist/tiny-slider.css";
 
 export default {
   name: "home",
@@ -95,18 +109,37 @@ export default {
       reviews: [
         {
           review:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore non nostrum ullam eaque iure, ipsum fugit iusto! Saepe vel placeat, aliquid iure, maiores necessitatibus accusamus sequi iusto neque suscipit numquam.",
-          reviewer: "Mr. Client",
-          designation: "well known designation"
+            "This new project ventured by M.V. Builders will certainly bring feel of confidence and Security to those who will take advantage of buying. Mr. Murali is quite dedicated in giving quality product to the society and ensures best is given irrespective of the challenges which comes along the project. I wish all success to Mr. Murali and team.",
+          reviewer: "Venkatramanan. M",
+          designation: "chaitanya kutir owner",
+          src: require("@/assets/rv1.jpg")
         },
         {
           review:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore non nostrum ullam eaque iure, ipsum fugit iusto! Saepe vel placeat, aliquid iure, maiores necessitatibus accusamus sequi iusto neque suscipit numquam.",
-          reviewer: "Mrs. Client",
-          designation: "well known designation"
+            "I am a Super Senior Citizen and my son bought me a flat in 2014 in MV. Brindhavan Apartments in Parsn Srirengapura at Melur Road, Srirangam. This apartment was sold to me by an effecient builder Shri Muralidharan, owner of MV Builders. Perfect match for money invested. The quality of construction is so good and lot of modifications were carried out to our choice by the builder. A very honest and clean builder who kept the time commitment as his utmost priority in handing over the finished property. Also he consistently helps and attends our call even now to take care of every maintenance in the building. Technically a very sound person and he has used his technical expertise in taking care of high standards in the construction and finishing of every apartment. Financial transactions, keeping up commitments, timely handing over, facilitating registration process and after sales service, the builder is the best in the current scenario. In a nutshell I lead a hassle free, comfortable and peaceful life in my apartment. 100% Best Buy. Best wishes to him in all his new ventures.",
+          reviewer: "V. Kamala",
+          designation: "Senior Citizen",
+          src: require("@/assets/rv2.jpg")
         }
       ]
     };
+  },
+  mounted() {
+    // tns({
+    //   container: ".review-slider",
+    //   mode: "carousel",
+    //   items: 2,
+    //   edgePadding: 10,
+    //   controls: false,
+    //   autoplayButtonOutput: false,
+    //   // autoHeight: true,
+    //   // nav: false,
+    //   // fixedWidth: 1200,
+    //   autoWidth: true,
+    //   // slideBy: "page",
+    //   slideBy: 1,
+    //   autoplay: true
+    // });
   }
 };
 </script>
