@@ -176,7 +176,7 @@ export default {
     });
 
     // try vue js component reload
-
+    var that = this;
     var rebuildSlides = help.debounce(
       function() {
         // slider.destroy();
@@ -185,12 +185,17 @@ export default {
         //   slider = slider.rebuild();
         //   // slider.refresh();
         // }, 116);
-        // console.log("rebuilded");
-        // // slider.refresh();
         console.log(slider);
-        location.reload();
+        // // slider.refresh();
+
+        if (that.$route.name === "home") {
+          console.log(that.$route.name === "home");
+          // that.$router.push({ path: '/' });
+          that.$router.go();
+        }
+        // location.reload();
       },
-      1000,
+      250,
       false
     );
 
