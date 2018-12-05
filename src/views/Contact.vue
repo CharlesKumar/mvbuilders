@@ -28,11 +28,11 @@
         </div>
       </div>
     </div>
-    <div class="c">
+    <div class="theme"><div class="c">
       <div class="warn-site para">Quick email service is currently not available</div>
       <h2>Quick Email:</h2>
       <ContactForm></ContactForm>
-    </div>
+    </div></div>
   </div>
 </template>
 

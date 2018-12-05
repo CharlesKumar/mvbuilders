@@ -60,6 +60,9 @@
       <div class="w-100p review-c">
         <Review :reviews="reviews[1]"></Review>
       </div>
+      <div class="w-100p review-c">
+        <Review :reviews="reviews[2]"></Review>
+      </div>
       <!-- <div class="">
         <Review :reviews="reviews[1]"></Review>
       </div>
@@ -93,6 +96,7 @@ import Carousel from "@/components/Carousel.vue";
 import Review from "@/components/Review.vue";
 import { tns } from "@/../node_modules/tiny-slider/src/tiny-slider";
 import "@/../node_modules/tiny-slider/dist/tiny-slider.css";
+import * as help from "@/js/helpers.js";
 
 export default {
   name: "home",
@@ -130,29 +134,37 @@ export default {
           reviewer: "V. Kamala",
           designation: "Senior Citizen",
           src: require("@/assets/rv2.jpg")
+        },
+        {
+          review:
+            "It's been a pleasure and satisfying experience to do Business with Mr.Muralidharan (M.V.Builders). They are a strong team of people & project after project the outcomes have only gotten better & better. MV builders never compromise quality and detailing, exceptional design and craftsmanship. Best part is their friendly approach, transparent transactions and perfect documentations. Strategic location for most of the projects is also a plus. In total, a property from M.V.Builders is fairly priced , value for money and a best home.",
+          reviewer: "Mrs. HARINI and Mr. ARVIND.",
+          designation: "MV Pranavm, MV Brindhavan clients",
+          src: require("@/assets/rv3.jpeg")
         }
       ]
     };
   },
   mounted() {
-    tns({
+    var slider = tns({
       container: ".review-slider",
       items: 1,
       mode: "carousel",
-      lazyload: true,
+      // lazyload: true,
       mouseDrag: true,
-      // edgePadding: 10,
-      gutter: 0,
       controls: false,
       autoplayButtonOutput: false,
       autoplayHoverPause: true,
       // autoHeight: true,
       // nav: false,
-      // fixedWidth: 1200,
-      autoWidth: true,
+      fixedWidth: (function() {
+        return window.innerWidth - window.innerWidth / 8;
+      })(),
+      // autoWidth: true,
       slideBy: "page",
       // slideBy: 1,
       autoplay: true,
+      autoplayTimeout: 5000,
       responsive: {
         300: {
           disable: true
@@ -162,6 +174,27 @@ export default {
         }
       }
     });
+
+    // try vue js component reload
+
+    var rebuildSlides = help.debounce(
+      function() {
+        // slider.destroy();
+        // console.log("destroyed");
+        // setTimeout(function() {
+        //   slider = slider.rebuild();
+        //   // slider.refresh();
+        // }, 116);
+        // console.log("rebuilded");
+        // // slider.refresh();
+        console.log(slider);
+        location.reload();
+      },
+      1000,
+      false
+    );
+
+    window.addEventListener("resize", rebuildSlides);
   }
 };
 </script>

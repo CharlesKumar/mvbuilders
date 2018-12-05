@@ -23,7 +23,7 @@ export default {
 .review {
   background-color: rgb(250, 235, 215);
   p {
-    max-width: 60%;
+    max-width: 80%;
   }
   .review-img {
     border-radius: 50%;
