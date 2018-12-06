@@ -10,7 +10,7 @@
           <li class="nav-item"><router-link to="/">Home</router-link></li>
           <li class="nav-item"><router-link to="/about">About</router-link></li>
           <li class="nav-item"><router-link to="/project">Projects</router-link></li>
-          <li class="nav-item"><router-link to="/contact">Contact</router-link></li>
+          <li class="nav-item"><router-link :to="{path: 'contact'}">Contact</router-link></li>
           <!-- <li class="nav-item"><a href=""></a></li>
           <li class="nav-item"><a href=""></a></li> -->
         </ul>

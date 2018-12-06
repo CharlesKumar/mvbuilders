@@ -53,7 +53,8 @@
       </div>
     </div> -->
     <h2 class="c">Client Reviews</h2>
-    <div class="c review-slider">
+    <div :key="componentKey" class="c review-slider">
+      <!-- window.innerWidth on slides instead of w-100p -->
       <div class="w-100p review-c">
         <Review :reviews="reviews[0]"></Review>
       </div>
@@ -106,6 +107,7 @@ export default {
   },
   data() {
     return {
+      componentKey: 0,
       images: [
         {
           src: require("@/assets/MV2.jpg"),
@@ -146,7 +148,7 @@ export default {
     };
   },
   mounted() {
-    var slider = tns({
+    tns({
       container: ".review-slider",
       items: 1,
       mode: "carousel",
@@ -177,21 +179,30 @@ export default {
 
     // try vue js component reload
     var that = this;
+    // var rslides = document.querySelectorAll('.w-100p');
+
     var rebuildSlides = help.debounce(
       function() {
+        // var rslides = document.querySelectorAll('.w-100p p');
+        // for (var i = 0; i < rslides.length; i++) {
+        //   rslides[i].style.width = window.innerWidth;
+        // }
         // slider.destroy();
+        // slider = slider.rebuild();
         // console.log("destroyed");
         // setTimeout(function() {
         //   slider = slider.rebuild();
         //   // slider.refresh();
         // }, 116);
-        console.log(slider);
+        // console.log(slider); // vuejs component remount
         // // slider.refresh();
 
         if (that.$route.name === "home") {
-          console.log(that.$route.name === "home");
+          // console.log(that.$route.name === "home");
           // that.$router.push({ path: '/' });
-          that.$router.go();
+          // that.$router.go();
+          // that.$data.componentKey++;
+          // slider = slider.rebuild();
         }
         // location.reload();
       },

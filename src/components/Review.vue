@@ -20,11 +20,19 @@ export default {
 </script>
 
 <style lang="scss">
-.review {
-  background-color: rgb(250, 235, 215);
-  p {
+@media all and (min-width: 960px) {
+  .review p {
+    max-width: 60%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .review p {
     max-width: 80%;
   }
+}
+.review {
+  background-color: rgb(250, 235, 215);
+
   .review-img {
     border-radius: 50%;
     width: 240px !important;
