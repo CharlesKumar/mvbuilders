@@ -47,10 +47,16 @@
         <div class="col-md2">
           <h2 class="c tac">Future Proof</h2>
           <ul class="list-checked">
-            <li>RERA registered</li>
-            <li>legal title/opinion from eminent lawyerd</li>
+            <li>Government approved Plots with RERA registration</li>
+            <li>Clear legal title/opinion from eminent lawyers</li>
             <li hidden="true">lightning/storm earthquakeproof</li>
-            <li>ground water level proof with cauvery and kollidam on either side</li>
+            <li>Ground water level proof with cauvery and kollidam on either side</li>
+            <li>Copious continuous water supply bore wells in addition to municipal water supply</li>
+            <li>Good infrastructure with 33 feet road</li>
+            <li>Underground Drainage connected to main line</li>
+            <li>Connected lifestyle with nearby bus stops, railway station, schools, hospitals, temples, etc.,</li>
+
+
           </ul>
         </div>
       </div>
@@ -61,7 +67,7 @@
           <div slot="cbody">
             <img src="@/assets/mvpranavm.jpg" alt="" class="mw-100">
             <h2 class="d-center tac">MV Pranavm</h2>
-            <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p>
+            <!-- <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p> -->
           </div>
           <div slot="cfooter">
 
@@ -73,7 +79,7 @@
           <div slot="cbody">
              <img src="@/assets/aparajitha.jpg" alt="" class="mw-100">
              <h2 class="d-center tac">Aparajitha</h2>
-             <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p>
+             <!-- <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p> -->
           </div>
           <div slot="cfooter">
 
@@ -86,7 +92,7 @@
         <!-- <img src="https://source.unsplash.com/480x320?men" alt=""> -->
         <div class="row">
           <div class="col-md2">
-            <img src="@/assets/man.jpg" alt="Founder" class="mw-100">
+            <!-- <img src="@/assets/man.jpg" alt="Founder" class="mw-100"> -->
             <h5 class="mt2">K Muralidharan</h5>
             <p class="para">commenced career as early at 1987 experienced in various type of civil constructions. Having a rich exposure in apartment constructions both at coimbatore and trichy. Projects done so far have all the amenities in place and car parking each for all the flats in addition no hidden charges (ie) price includes everything. Having good work force for all types of civil constructions and interiors as we proudly say we have completed all our projects within the stipulated timeperiod. "</p>
           </div>

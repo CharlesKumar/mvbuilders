@@ -5,8 +5,8 @@
 
       <div class="slidewrap por" v-for="image in images" :key="image.src">
         <div class="overlay">
-          <h1 class="highlight--underline times ttu">{{image.heading}}</h1>
-          <p class="highlight--underline">{{image.caption}}</p>
+          <h1 class="highlight--underline times ttu slider__heading">{{image.heading}}</h1>
+          <p class="highlight--underline slider__caption">{{image.caption}}</p>
         </div>
         <img  :src="image.src"  :alt="image.alt" >
       </div>
@@ -49,6 +49,19 @@ export default {
 .carousel img {
   // display: block;
 }
+
+.slider__caption {
+  font-size: 24px;
+  text-align: center;
+}
+
+@media all and (max-width: 480px) {
+  .slider__caption,
+  .slider__heading {
+    opacity: 0.1;
+  }
+}
+
 .tns-outer {
   position: relative;
   .tns-inner {

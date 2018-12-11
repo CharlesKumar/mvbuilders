@@ -82,8 +82,8 @@
       <div class="row">
         <div class="col-md2"></div>
         <div class="col-md2 c lg-hide">
-          <h2 class="c c-white">Temple City</h2>
-          <h3 class="c c-white">Peaceful place for you</h3>
+          <!-- <h2 class="c c-white">Temple City</h2>
+          <h3 class="c c-white">Peaceful place for you</h3> -->
         </div>
       </div>
     </div>
@@ -111,13 +111,13 @@ export default {
       images: [
         {
           src: require("@/assets/MV2.jpg"),
-          alt: "mv brindhavan apartments",
+          alt: "mv brindhavan homes",
           heading: "MV Vistara",
-          caption: "defines itself"
+          caption: "Defines itself"
         },
         {
           src: require("@/assets/MV2.jpg"),
-          alt: "mv dwaraka apartments",
+          alt: "mv dwaraka homes",
           heading: "MV Builders",
           caption: "Friendly Companion for Construction Business"
         }
@@ -125,21 +125,21 @@ export default {
       reviews: [
         {
           review:
-            "This new project ventured by M.V. Builders will certainly bring feel of confidence and Security to those who will take advantage of buying. Mr. Murali is quite dedicated in giving quality product to the society and ensures best is given irrespective of the challenges which comes along the project. I wish all success to Mr. Murali and team.",
+            "This new project ventured by M.V. Builders will certainly bring feel of confidence and Security to those who will take advantage of buying. Mr. K. Muraliidharan is quite dedicated in giving quality product to the society and ensures best is given irrespective of the challenges which comes along the project. I wish all success to Mr. K. Muralidharan and team.",
           reviewer: "Venkatramanan. M",
           designation: "chaitanya kutir owner",
           src: require("@/assets/rv1.jpg")
         },
         {
           review:
-            "I am a Super Senior Citizen and my son bought me a flat in 2014 in MV. Brindhavan Apartments in Parsn Srirengapura at Melur Road, Srirangam. This apartment was sold to me by an effecient builder Shri Muralidharan, owner of MV Builders. Perfect match for money invested. The quality of construction is so good and lot of modifications were carried out to our choice by the builder. A very honest and clean builder who kept the time commitment as his utmost priority in handing over the finished property. Also he consistently helps and attends our call even now to take care of every maintenance in the building. Technically a very sound person and he has used his technical expertise in taking care of high standards in the construction and finishing of every apartment. Financial transactions, keeping up commitments, timely handing over, facilitating registration process and after sales service, the builder is the best in the current scenario. In a nutshell I lead a hassle free, comfortable and peaceful life in my apartment. 100% Best Buy. Best wishes to him in all his new ventures.",
+            "I am a Super Senior Citizen and my son bought me a flat in 2014 in MV. Brindhavan Homes in Parsn Srirengapura at Melur Road, Srirangam. This apartment was sold to me by an effecient builder Shri K. Muralidharan, owner of MV Builders. Perfect match for money invested. The quality of construction is so good and lot of modifications were carried out to our choice by the builder. A very honest and clean builder who kept the time commitment as his utmost priority in handing over the finished property. Also he consistently helps and attends our call even now to take care of every maintenance in the building. Technically a very sound person and he has used his technical expertise in taking care of high standards in the construction and finishing of every apartment. Financial transactions, keeping up commitments, timely handing over, facilitating registration process and after sales service, the builder is the best in the current scenario. In a nutshell I lead a hassle free, comfortable and peaceful life in my apartment. 100% Best Buy. Best wishes to him in all his new ventures.",
           reviewer: "V. Kamala",
           designation: "Senior Citizen",
           src: require("@/assets/rv2.jpg")
         },
         {
           review:
-            "It's been a pleasure and satisfying experience to do Business with Mr.Muralidharan (M.V.Builders). They are a strong team of people & project after project the outcomes have only gotten better & better. MV builders never compromise quality and detailing, exceptional design and craftsmanship. Best part is their friendly approach, transparent transactions and perfect documentations. Strategic location for most of the projects is also a plus. In total, a property from M.V.Builders is fairly priced , value for money and a best home.",
+            "It's been a pleasure and satisfying experience to do Business with Mr. K. Muralidharan (M.V.Builders). They are a strong team of people & project after project the outcomes have only got better & better. MV builders never compromise quality and detailing, exceptional design and craftsmanship. Best part is their friendly approach, transparent transactions and perfect documentations. Strategic location for most of the projects is also a plus. In total, a property from M.V.Builders is fairly priced , value for money and a best home.",
           reviewer: "Mrs. HARINI and Mr. ARVIND.",
           designation: "MV Pranavm, MV Brindhavan clients",
           src: require("@/assets/rv3.jpeg")
@@ -153,16 +153,22 @@ export default {
       items: 1,
       mode: "carousel",
       // lazyload: true,
-      mouseDrag: true,
-      controls: false,
+      nav: true,
+      // navPosition: "top",
+      // gutter: -100,
+      edgePadding: 100,
+      // mouseDrag: true,
+      controls: true,
+      arrowKeys: true,
+      speed: 600,
+      controlsText: ["<", ">"],
       autoplayButtonOutput: false,
-      autoplayHoverPause: true,
+      // autoplayHoverPause: true,
       // autoHeight: true,
-      // nav: false,
-      fixedWidth: (function() {
-        return window.innerWidth - window.innerWidth / 8;
-      })(),
-      // autoWidth: true,
+      // fixedWidth: (function() {
+      //   return window.innerWidth - window.innerWidth / 8;
+      // })(),
+      autoWidth: true,
       slideBy: "page",
       // slideBy: 1,
       autoplay: true,
@@ -172,7 +178,13 @@ export default {
           disable: true
         },
         960: {
-          disable: false
+          disable: false,
+          edgePadding: 0,
+          autoWidth: false,
+          fixedWidth: window.innerWidth
+        },
+        1100: {
+          edgePadding: 50
         }
       }
     });
@@ -218,5 +230,38 @@ export default {
 <style lang="scss">
 .home .tns-inner {
   background-color: rgb(250, 235, 215);
+}
+
+.tns-controls {
+  position: relative;
+  top: 300px;
+  z-index: 20;
+}
+
+button[data-controls] {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 0;
+  color: white;
+  width: 30px;
+  height: 40px;
+  font-size: 24px;
+}
+
+button[data-controls="next"] {
+  position: absolute;
+  right: 10px;
+}
+
+button[data-controls="prev"] {
+  margin-left: 10px;
+}
+
+.tns-nav button {
+  width: 17px;
+  height: 17px;
+  background-color: #000;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 4px;
 }
 </style>
