@@ -22,7 +22,7 @@ $brkpoints: (
 $sass-burger-add-vendor-prefixes: false;
 
 .burger {
-  @include burger($gutter: 2px, $width: 40px, $height: 3px, $color: #fff);
+  @include burger($gutter: 6px, $width: 40px, $height: 3px, $color: #fff);
 }
 
 .menu-active.burger {

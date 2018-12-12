@@ -41,6 +41,22 @@ function debounce(func, wait, immediate) {
   };
 }
 
-export { attachNavEvent, createElement, toggleClass, debounce };
+function setClickHandler(id, fn) {
+  document.getElementById(id).onclick = fn;
+} // click handler fn
+
+function currentChanger(current, newCurrent) {
+  current.classList.remove("current");
+  newCurrent.classList.add("current");
+} // currentChanger fn
+
+export {
+  attachNavEvent,
+  createElement,
+  toggleClass,
+  debounce,
+  setClickHandler,
+  currentChanger
+};
 // export let attachNavEvent, createElement, toggleClass;
 // export * from …;

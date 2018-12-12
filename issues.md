@@ -6,3 +6,5 @@ mounted() -> created() or mounted() -> beforeMount()
 strategy don't prerender if error occurs
 
 never refresh the same document like / and /index.html
+
+use vw units to p for breakpoint intensive container

@@ -35,18 +35,16 @@
 
         </div>
         <div class="col-md2">
-            <div class="card">
+            <div class="card p3 mw-80 grey-bordered">
               <img src="@/assets/chaitanyakutir.jpeg" alt="Chaitanya Kutir" class="mw-100">
               <h4 class="pl3 mb3 mt3">Chaitanya Kutir</h4>
             </div>
         </div>
       </div>
       <div class="row hero-margin">
-        <div class="col-md2">
-          <div class="card">
-            <img src="@/assets/mvpranavm.jpg" alt="Chaitanya Kutir" class="mw-100">
-            <h4 class="pl3 mb3 mt3">MV Pranavm</h4>
-          </div>
+        <div class="col-md2 card grey-bordered">
+          <img src="@/assets/mvpranavm.jpg" alt="Chaitanya Kutir" class="mw-100">
+          <h4 class="pl3 mb3 mt3">MV Pranavm</h4>
 
         </div>
         <div class="col-md2 flex-asc">
@@ -59,19 +57,19 @@
 
         </div>
         <div class="col-md2">
-            <div class="card">
-              <img src="@/assets/mvdwaraka.jpg" alt="MV Dwaraka" class="mw-100">
-              <h4 class="mb3 mt3">MV Dwaraka</h4>
-            </div>
+          <div class="card p3 mw-80 grey-bordered">
+            <img src="@/assets/mvdwaraka.jpg" alt="MV Dwaraka" class="mw-100">
+            <h4 class="mb3 mt3">MV Dwaraka</h4>
+          </div>
         </div>
       </div>
       <h3 class="">Aparajitha and MV Brindhavan - 2015</h3>
       <div class="row hero-margin">
-        <div class="col-md2 card">
+        <div class="col-md2 card grey-bordered">
           <img src="@/assets/aparajitha.jpg" alt="Aparajitha" class="mw-100">
             <h4 class="mb3 mt3">Aparajitha</h4>
         </div>
-        <div class="col-md2 card">
+        <div class="col-md2 card grey-bordered">
           <img src="@/assets/mvbrindhavan.jpg" alt="MV Brindhavan" class="mw-100">
             <h4 class="mb3 mt3">MV Brindhavan</h4>
         </div>
@@ -121,6 +119,8 @@
 </template>
 
 <script>
+var BigPicture = require("bigpicture");
+
 export default {
   name: "project",
   mounted() {
@@ -133,9 +133,19 @@ export default {
         this.nextSibling.classList.toggle("h-show");
       });
     }
+    document.getElementById("project-page").onclick = function(e) {
+      (e.target.tagName === "IMG" ||
+        e.target.className === "background-image") &&
+        BigPicture({
+          el: e.target
+        });
+    };
   }
 };
 </script>
 
 <style lang="scss">
+.mw-80 {
+  max-width: 80%;
+}
 </style>

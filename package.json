@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bigpicture": "^2.0.1",
     "include-media": "^1.4.9",
     "stickybits": "^3.5.7",
     "tiny-slider": "^2.8.8",

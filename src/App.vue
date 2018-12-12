@@ -1,11 +1,13 @@
 <template>
   <div id="app" >
     <header class="flex flex-jcsa z-1">
-      <div id="brand">
-        <img src="@/assets/mvlogo.png" alt="" id="logo"><h3 class="inline-block times vat ttu">Builders</h3>
+      <div id="brand" class="flex flex-jcsb">
+        <div>
+          <img src="@/assets/mvlogo.png" class="ml2" alt="" id="logo"><h3 class="inline-block times vat ttu">Builders</h3>
+        </div>
+        <button id="mm-toggle" class="btn mm-toggle burger"></button>
       </div>
       <nav class="main-nav">
-        <button id="mm-toggle" class="btn mm-toggle burger"></button>
         <ul id="nav-roller" class="nav-container">
           <li class="nav-item"><router-link to="/">Home</router-link></li>
           <li class="nav-item"><router-link to="/about">About</router-link></li>
@@ -36,7 +38,7 @@
         <div class="col-md3">
           <!-- <h4>About</h4>
           <p><span class="times ttu">MV Builders</span> </p> -->
-          <h5>Member of <span class="ttu">credai</span></h5>
+          <h5>Member</h5>
           <img src="@/assets/credai.png" alt="" class="mw-100" style="width: 240px;">
         </div>
       </div>
@@ -63,5 +65,13 @@
 
 [v-cloak]::before {
   content: "loading…";
+}
+
+footer .nav-item a {
+  color: white;
+}
+
+footer .nav-item a:visited {
+  color: lightblue;
 }
 </style>

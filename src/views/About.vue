@@ -92,13 +92,14 @@
         <!-- <img src="https://source.unsplash.com/480x320?men" alt=""> -->
         <div class="row">
           <div class="col-md2">
-            <!-- <img src="@/assets/man.jpg" alt="Founder" class="mw-100"> -->
+            <img src="@/assets/kmuralidharan.jpg" alt="Founder" class="mw-100 p2 grey-bordered">
             <h5 class="mt2">K Muralidharan</h5>
-            <p class="para">commenced career as early at 1987 experienced in various type of civil constructions. Having a rich exposure in apartment constructions both at coimbatore and trichy. Projects done so far have all the amenities in place and car parking each for all the flats in addition no hidden charges (ie) price includes everything. Having good work force for all types of civil constructions and interiors as we proudly say we have completed all our projects within the stipulated timeperiod. "</p>
+            <!-- <p class="para">commenced career as early at 1987 experienced in various type of civil constructions. Having a rich exposure in apartment constructions both at coimbatore and trichy. Projects done so far have all the amenities in place and car parking each for all the flats in addition no hidden charges (ie) price includes everything. Having good work force for all types of civil constructions and interiors as we proudly say we have completed all our projects within the stipulated timeperiod. "</p> -->
           </div>
-          <div class="col-md2 c lg-hide">
-            <h2 class="c">Decades of experience</h2>
-            <h3 class="c">Pioneer in the housing field</h3>
+          <div class="col-md2 c">
+            <h2 class="c">Decades of experience <br> <small>Pioneer in the housing field</small></h2>
+            <!-- <h3 class="c">Pioneer in the housing field</h3> -->
+            <p class="para"> <span class="ttu">K Muralidharan</span> commenced his career as early at 1987 experienced in various type of civil constructions. Having a rich exposure in apartment constructions both at coimbatore and trichy. Projects done so far have all the amenities in place and car parking each for all the flats in addition no hidden charges (ie) price includes everything. Having good work force for all types of civil constructions and interiors as we proudly say we have completed all our projects within the stipulated timeperiod. "</p>
           </div>
         </div>
       </div>

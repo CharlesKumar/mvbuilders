@@ -16,6 +16,22 @@ header {
     // box-shadow: 0px 1px 3px 1px;
   }
 }
+
+.mm-toggle {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  color: white;
+  top: -15px;
+  right: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+  @include media(">tablet") {
+    visibility: hidden;
+    // display: none;
+  }
+}
+
 nav.main-nav {
   // background-color: white;
   // background-color: var(--nav-bg-color);
@@ -30,18 +46,6 @@ nav.main-nav {
     flex-direction: row;
     align-items: stretch;
     justify-content: space-around;
-  }
-
-  .mm-toggle {
-    border: 0;
-    background-color: transparent;
-    color: white;
-    top: -15px;
-    cursor: pointer;
-    @include media(">tablet") {
-      visibility: hidden;
-      // display: none;
-    }
   }
 
   ul.nav-container {
