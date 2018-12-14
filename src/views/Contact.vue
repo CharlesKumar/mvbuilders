@@ -28,11 +28,13 @@
         </div>
       </div>
     </div>
-    <div class="theme"><div class="c">
-      <div class="warn-site para">Quick email service is currently not available</div>
-      <h2>Quick Email:</h2>
-      <ContactForm></ContactForm>
-    </div></div>
+    <div class="contact-bg">
+      <div class="overlay"><div class="c">
+        <div class="warn-site c-white para">Quick email service is currently not available</div>
+        <h2 class="c-white">Quick Email:</h2>
+        <ContactForm></ContactForm>
+      </div></div>
+    </div>
   </div>
 </template>
 
@@ -48,4 +50,10 @@ export default {
 </script>
 
 <style lang="scss">
+.contact-bg {
+  background: url("../assets/ebg.jpg");
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
 </style>

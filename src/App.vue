@@ -9,10 +9,10 @@
       </div>
       <nav class="main-nav">
         <ul id="nav-roller" class="nav-container">
-          <li class="nav-item"><router-link to="/">Home</router-link></li>
-          <li class="nav-item"><router-link to="/about">About</router-link></li>
-          <li class="nav-item"><router-link to="/project">Projects</router-link></li>
-          <li class="nav-item"><router-link :to="{path: 'contact'}">Contact</router-link></li>
+          <li class="nav-item"><router-link @click.native="$scrollToTop" to="/">Home</router-link></li>
+          <li class="nav-item"><router-link @click.native="$scrollToTop" to="/about">About</router-link></li>
+          <li class="nav-item"><router-link @click.native="$scrollToTop" to="/project">Projects</router-link></li>
+          <li class="nav-item"><router-link @click.native="$scrollToTop" :to="{path: 'contact'}">Contact</router-link></li>
           <!-- <li class="nav-item"><a href=""></a></li>
           <li class="nav-item"><a href=""></a></li> -->
         </ul>
@@ -43,12 +43,22 @@
         </div>
       </div>
       <p class="m0 p2">&copy; 2018 - Crayola Design Studio</p>
+      <button id="scroll-top">Top</button>
     </footer>
   </div>
 </template>
 
 <style lang="scss">
 @import "sass/style";
+
+#scroll-top {
+  position: fixed;
+  opacity: 0.5;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

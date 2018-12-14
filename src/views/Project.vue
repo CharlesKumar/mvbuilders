@@ -17,7 +17,7 @@
           <img src="@/assets/MV2.jpg" alt="" class="mw-100">
         </div>
         <div class="col-md2">
-            <h3>MV Vistara <small class="mono">defines itself</small></h3>
+            <h3>MV Vistara <small class="mono">Defines itself</small></h3>
           <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, have the entire people in the Universe have the ambition to live at their lifetime especially during their retired livinghoods. As our project situated very near to thayar sannadhi and the first project in srirangam having the mandatory registration with RERA numbered as 16/2018(verify) we hope MV Vistara will fulfill the ambitions of srirangam loving people spread over the entire Universe.</p>
           <h4>Location Advantages</h4>
           <ul class="list-checked">

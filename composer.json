@@ -1,0 +1,12 @@
+{
+    "name": "charlie/mvbuilders",
+    "authors": [
+        {
+            "name": "Charles Kumar",
+            "email": "gamescharlie79@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}

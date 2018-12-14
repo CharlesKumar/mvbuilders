@@ -6,7 +6,7 @@ import Home from "./views/Home.vue";
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
   mode: "history",
   base: process.env.BASE_URL,
   routes: [
@@ -44,5 +44,16 @@ export default new Router({
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/Contact.vue")
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  }
 });
+
+// router.beforeEach((to, from, next) => {
+//   console.log(to);
+//   console.log(from);
+//   next();
+// });
+
+export default router;
