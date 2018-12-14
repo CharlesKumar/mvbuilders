@@ -33,7 +33,7 @@ export default {
       controls: false,
       autoplayButtonOutput: false,
       autoHeight: false,
-      // nav: false,
+      nav: false,
       // fixedWidth: 1200,
       // autoWidth: true,
       // slideBy: "page",

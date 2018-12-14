@@ -10,6 +10,8 @@ Vue.use(VueHead);
 
 Vue.config.productionTip = false;
 
+Vue.prototype.$scrollToTop = () => window.scrollTo(0, 0);
+
 new Vue({
   router,
   head: {
@@ -26,11 +28,6 @@ new Vue({
       { name: "author", content: "MV Builders" },
       { name: "description", content: "Buy flats in lush green environment" }
     ]
-  },
-  methods: {
-    scrollToTop() {
-      window.scrollTo(0, 0);
-    }
   },
   mounted() {
     help.attachNavEvent();

@@ -28,6 +28,20 @@
           </ul>
         </div>
       </div>
+      <div class="row c">
+        <h3 class="tac">Map Route</h3>
+        <img src="@/assets/map.png" alt="" class="mw-100">
+      </div>
+      <div class="row c">
+        <div class="col-md2">
+          <h3 class="tac">Floor Plan</h3>
+          <img src="@/assets/int.jpg" alt="" class="mw-100">
+        </div>
+        <div class="col-md2">
+          <h3 class="tac">Car Parking</h3>
+          <img src="@/assets/car_parking.jpg" alt="" class="mw-100">
+        </div>
+      </div>
       <h2 class="hero-margin">Completed Projects</h2>
       <div class="row hero-margin">
         <div class="col-md2 flex-asc">

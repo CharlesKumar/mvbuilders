@@ -52,7 +52,7 @@
         </Card>
       </div>
     </div> -->
-    <h2 class="c">Client Reviews</h2>
+    <h2 class="c">Words from our customers</h2>
     <div :key="componentKey" class="c review-slider">
       <!-- window.innerWidth on slides instead of w-100p -->
       <div class="w-100p review-c">
