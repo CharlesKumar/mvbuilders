@@ -29,10 +29,10 @@
         <div class="col-md3">
           <p>Quick links</p>
           <ul class="list-reset m0 p0">
-            <li class="nav-item"><router-link to="/">Home</router-link></li>
-            <li class="nav-item"><router-link to="/about">About</router-link></li>
-            <li class="nav-item"><router-link to="/project">Projects</router-link></li>
-            <li class="nav-item"><router-link to="/contact">Contact</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/">Home</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/about">About</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/project">Projects</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/contact">Contact</router-link></li>
           </ul>
         </div>
         <div class="col-md3">

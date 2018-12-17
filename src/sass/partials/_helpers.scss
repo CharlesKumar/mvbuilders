@@ -64,6 +64,18 @@
   text-transform: uppercase;
 }
 
+.fz-120p {
+  font-size: 120%;
+}
+
+.fz-140p {
+  font-size: 140%;
+}
+
+.fz-160p {
+  font-size: 160%;
+}
+
 .flex {
   display: flex;
 }
@@ -236,6 +248,14 @@
 
 .para {
   max-width: 640px;
+}
+
+.indented {
+  text-indent: 50px;
+}
+
+.no-indent {
+  text-indent: 0 !important;
 }
 
 .bg-attached {

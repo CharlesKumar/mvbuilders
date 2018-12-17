@@ -10,7 +10,9 @@
       <h1 class="">Feel Free to Contact Us</h1>
       <div class="row">
         <div class="col-lg2">
-          <p class="para hero-margin">Eventhough we are totally engaged in our own projects we are available for suggestions, improvements, vasthu corrections and any other type of housing related queries. With our wide experience we hope we can guide you in a appropriate manner.</p>
+          <p class="para hero-margin"><span class="fz-120p">We would love to know about you and your dream homes. Interested in investing/living in the serene land of Srirangam? Please contact us through e-mail or phone.</span>
+          </p>
+          <p>Even though we are engaged in our own projects, we are available for suggestions, improvements, VASTU corrections and any other type of housing related queries. With our extensive experience, we will be pleased to guide you!!</p>
         </div>
         <div class="col-lg2">
           <div class="flex flex-aib c">

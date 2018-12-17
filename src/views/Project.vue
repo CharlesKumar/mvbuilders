@@ -9,7 +9,7 @@
     <!-- <h1 class="c">List of Our Projects</h1> -->
     <!-- <h1 class="c">Our creations to make happy world</h1> -->
     <h1 class="c">Our creations for happy world</h1>
-    <p class="c"><span>All our projects are designed and constructed with internal amenities and external infrastructure properly blended to. In addition we give the members of MV family, the pleasure in living the lush green environment, well laid infrastructure amenities, 24*7 copious continuous essential services perfect blend of green and dwelling. peaceful and satisfied ambience and calm living.</span></p>
+    <p class="c"><span>All our projects are designed and constructed with a perfect blend of internal amenities and external infrastructure. In addition, we provide the members of the MV family, the pleasure of living in a <span class="fz-120p c-green nowrap-text">Lush Green Environment</span> with well laid infrastructure amenities and 24x7 copious continuous essential services. An absolute combination of green and dwelling with peaceful, satisfied ambience assures a calm living.</span></p>
     <div class="c">
       <h2 class="">Current Project:</h2>
       <div class="row c">
@@ -17,7 +17,7 @@
           <img src="@/assets/MV2.jpg" alt="" class="mw-100">
         </div>
         <div class="col-md2">
-            <h3>MV Vistara <small class="mono">Defines itself</small></h3>
+            <h3>MV Vistara <small class="mono">Defines Itself</small></h3>
           <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, have the entire people in the Universe have the ambition to live at their lifetime especially during their retired livinghoods. As our project situated very near to thayar sannadhi and the first project in srirangam having the mandatory registration with RERA numbered as 16/2018(verify) we hope MV Vistara will fulfill the ambitions of srirangam loving people spread over the entire Universe.</p>
           <h4>Location Advantages</h4>
           <ul class="list-checked">
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="row c">
-        <h3 class="tac">Map Route</h3>
+        <h3 class="tac">Route Map</h3>
         <img src="@/assets/map.jpg" alt="" class="mw-100 md-hide">
         <iframe class= "gmapvistara" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3918.2907756125733!2d78.68257536474216!3d10.86547434226112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3baaf677a73db341%3A0x9722303799dcab1b!2sRanganayaki+Thaayaar+Sannadhi%2C+33%2C+N+Uthrai+St%2C+Sriramapuram%2C+Srirangam%2C+Tiruchirappalli%2C+Tamil+Nadu+620006!3m2!1d10.8639689!2d78.6890763!4m5!1s0x3baaf7c1b7e4dc59%3A0xaa1c44bdf6e1e003!2sMV+Vistara%2C+Srirangam%2C+Tamil+Nadu+620006!3m2!1d10.8681444!2d78.68073059999999!5e0!3m2!1sen!2sin!4v1545022870236" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
