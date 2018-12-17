@@ -47,14 +47,14 @@
         <div class="col-md2">
           <h2 class="c tac">Future Proof</h2>
           <ul class="list-checked">
-            <li>Government approved Plots with RERA registration</li>
-            <li>Clear legal title/opinion from eminent lawyers</li>
+            <li><span>Government approved Plots with RERA registration</span></li>
+            <li><span>Clear legal title/opinion from eminent lawyers</span></li>
             <li hidden="true">lightning/storm earthquakeproof</li>
-            <li>Ground water level proof with cauvery and kollidam on either side</li>
-            <li>Copious continuous water supply bore wells in addition to municipal water supply</li>
-            <li>Good infrastructure with 33 feet road</li>
-            <li>Underground Drainage connected to main line</li>
-            <li>Connected lifestyle with nearby bus stops, railway station, schools, hospitals, temples, etc.,</li>
+            <li><span>Ground water level proof with cauvery and kollidam on either side</span></li>
+            <li><span>Copious continuous water supply bore wells in addition to municipal water supply</span></li>
+            <li><span>Good infrastructure with 33 feet road</span></li>
+            <li><span>Underground Drainage connected to main line</span></li>
+            <li><span>Connected lifestyle with nearby bus stops, railway station, schools, hospitals, temples, etc.,</span></li>
 
 
           </ul>

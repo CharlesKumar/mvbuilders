@@ -1,5 +1,5 @@
 <template lang="html">
-  <form class="flex flex-col hero-margin" v-on:submit.prevent="sendMail()" id="contact-form" style="max-width: 620px;">
+  <form class="flex flex-col" v-on:submit.prevent="sendMail()" id="contact-form" style="max-width: 620px;">
     <fieldset class="mb3 mt3 theme-bw-inverse">
       <label for="name">Name:</label>
       <input id="name" name="username" class="transparent-bg border-0 pl2" type="text" placeholder="your name">
@@ -9,7 +9,7 @@
       <input id="email" name="email" class="transparent-bg border-0 pl2" type="text" placeholder="youremail@mail.com">
     </fieldset>
     <textarea class="mb3 mt3 p2 transparent-bg" id="cf-msg" name="message" rows="8" cols="80"></textarea>
-    <input class="btn theme-bw-inverse p3" type="submit" name="submit" value="Send Message">
+    <input class="btn theme-bw-inverse mt3 p3" type="submit" name="submit" value="Send Message">
   </form>
 </template>
 
@@ -55,6 +55,10 @@ input[type="submit"] {
 
 .border-0 {
   border: 0;
+}
+
+#contact-form {
+  margin-bottom: 30px;
 }
 
 .transparent-bg,

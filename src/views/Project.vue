@@ -21,17 +21,19 @@
           <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, have the entire people in the Universe have the ambition to live at their lifetime especially during their retired livinghoods. As our project situated very near to thayar sannadhi and the first project in srirangam having the mandatory registration with RERA numbered as 16/2018(verify) we hope MV Vistara will fulfill the ambitions of srirangam loving people spread over the entire Universe.</p>
           <h4>Location Advantages</h4>
           <ul class="list-checked">
-            <li>700 Meter from Srirangam Thayar Sannadhi.</li>
-            <li>Lush Green Environment</li>
-            <li>2km from Bus Stand/Railway Station.</li>
-            <li>3km from Government Butterfly Park.</li>
+            <li><span>700 Meter from Srirangam Thayar Sannadhi.</span></li>
+            <li><span>Lush Green Environment</span></li>
+            <li><span>2km from Bus Stand/Railway Station.</span></li>
+            <li><span>3km from Government Butterfly Park.</span></li>
           </ul>
         </div>
       </div>
       <div class="row c">
         <h3 class="tac">Map Route</h3>
-        <img src="@/assets/map.png" alt="" class="mw-100">
+        <img src="@/assets/map.jpg" alt="" class="mw-100 md-hide">
+        <iframe class= "gmapvistara" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3918.2907756125733!2d78.68257536474216!3d10.86547434226112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3baaf677a73db341%3A0x9722303799dcab1b!2sRanganayaki+Thaayaar+Sannadhi%2C+33%2C+N+Uthrai+St%2C+Sriramapuram%2C+Srirangam%2C+Tiruchirappalli%2C+Tamil+Nadu+620006!3m2!1d10.8639689!2d78.6890763!4m5!1s0x3baaf7c1b7e4dc59%3A0xaa1c44bdf6e1e003!2sMV+Vistara%2C+Srirangam%2C+Tamil+Nadu+620006!3m2!1d10.8681444!2d78.68073059999999!5e0!3m2!1sen!2sin!4v1545022870236" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
+
       <div class="row c">
         <div class="col-md2">
           <h3 class="tac">Floor Plan</h3>

@@ -19,7 +19,7 @@
           </div>
           <div class="flex flex-aib c">
             <h3 class="p3">Phone</h3>
-            <p><a href="tel:+919842430871">9842430871</a></p>
+            <p><a href="tel:+919842430871">+91 9842430871</a></p>
           </div>
           <div class="flex c">
             <h4 class="p3">MS Vistara Location</h4>
@@ -30,8 +30,8 @@
     </div>
     <div class="contact-bg">
       <div class="overlay"><div class="c">
-        <div class="warn-site c-white para">Quick email service is currently not available</div>
-        <h2 class="c-white">Quick Email:</h2>
+        <!-- <div class="warn-site c-white para">Quick email service is currently not available</div> -->
+        <h2 class="c-white hero-margin">Quick Email:</h2>
         <ContactForm></ContactForm>
       </div></div>
     </div>

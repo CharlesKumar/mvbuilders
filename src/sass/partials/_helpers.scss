@@ -207,6 +207,12 @@
 
 .list-checked {
   list-style-image: url("/checked.png");
+  span {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 5px;
+    line-height: 2;
+  }
 }
 
 .icon-xsmall {
