@@ -16,7 +16,7 @@
       </div>
       <div class="col-md2">
         <h3>MV Vistara</h3>
-        <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, where everyone in the Universe have an ambition to live during their lifetime, especially during their retired livelihood. Our project is situated very near to Thayar Sannidhi and the first project in Srirangam to possess the mandatory registration with RERA numbered as TN/16/BUILDING/0330/2018. We assure MV Vistara will fulfill the ambitions of Srirangam-loving people spread all over the world.</p>
+        <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, where everyone in the Universe have an ambition to live during their lifetime, especially during their retired livelihood. Our project is situated very near to Thayar Sannidhi which is helpful for easy navigation, also an 8 passenger lift with ARD (Automatic Rescue Device) facility to cater the needs of all walks of life. We are happy to state that the first project in Srirangam to possess the mandatory registration with RERA numbered as TN/16/BUILDING/0330/2018. We assure MV Vistara will fulfill the ambitions of Srirangam-loving people spread all over the world.</p>
         <h4>Location Advantages</h4>
         <ul class="list-checked">
           <li><span>700 Meter from Srirangam Thayar Sannadhi.</span></li>

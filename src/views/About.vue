@@ -3,7 +3,7 @@
     <div class="h-300 pinot-noir__gradient">
       <div class="c c-white flex flex-col flex-aic flex-jcc h-100p">
         <h2 class="times ttu">MV Builders</h2>
-        <h5>Our improvements Directly Translate to our Experience</h5>
+        <h5 class="tac">Our improvements Directly Translate to our Experience</h5>
       </div>
     </div>
     <div class="c">

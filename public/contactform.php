@@ -5,8 +5,8 @@ require_once __DIR__.'/vendor/autoload.php';
 // Create the Transport
 $transport = new Swift_SmtpTransport('smtp.gmail.com', 587, 'tls');
 
-$transport->setUsername('charlesdummy12@gmail.com')
-    ->setPassword('regenerate');
+$transport->setUsername('srgm.mvbuilders@gmail.com')
+    ->setPassword('mvbuilders@123');
 
 
 // Create the Mailer using your created Transport
@@ -28,7 +28,8 @@ $message = new Swift_Message($subject);
 $reply = new Swift_Message('Thank you for contacting us');
 
 $message->setFrom([ $tomail => $_POST["username"] ])
-    ->setTo([ 'charlesdummy12@gmail.com' => 'Charles' ])
+    // ->setTo([ 'srgm.mvbuilders@gmail.com' => 'MV Builders', 'murlidhar28@gmail.com' => 'K. Muralidharan' ])
+    ->setTo([ 'srgm.mvbuilders@gmail.com' => 'MV Builders', 'murlidhar28@gmail.com' => 'K. Muralidharan' ])
     ->setBody($body);
 
 $reply->setFrom([ 'mvbuilders@gmail.com' => 'MV Builders' ])

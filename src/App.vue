@@ -23,8 +23,8 @@
       <div class="row">
         <div class="col-md3">
           <h4>Contact</h4>
-          <div><img src="@/assets/smartphone-ringing.svg" alt="" class="icon-xsmall mr2"> <a class="c-white" href="tel:+919842430871">9842430871</a></div>
-          <div><img src="@/assets/envelope.svg" alt="" class="icon-xsmall mr2"> <a class="c-white" href="mailto:murlidhar28@gmail.com">murlidhar28@gmail.com</a></div>
+          <div><img src="@/assets/smartphone-ringing.svg" alt="" class="icon-xsmall mr2"> <a class="c-white vat" href="tel:+919842430871">+91 9842430871</a></div>
+          <div><img src="@/assets/envelope.svg" alt="" class="icon-xsmall mr2"> <a class="c-white vat" href="mailto:murlidhar28@gmail.com">murlidhar28@gmail.com</a></div>
         </div>
         <div class="col-md3">
           <p>Quick links</p>

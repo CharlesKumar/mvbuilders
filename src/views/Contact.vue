@@ -3,7 +3,7 @@
     <div class="h-300 twitch__gradient">
       <div class="c c-white flex flex-col flex-aic flex-jcc h-100p">
         <h2 class="times ttu">MV Builders</h2>
-        <h5>Good Contacts builds up the valuable harmony</h5>
+        <h5 class="tac">Good Contacts builds up the valuable harmony</h5>
       </div>
     </div>
     <div class="c">
@@ -15,16 +15,16 @@
           <p>Even though we are engaged in our own projects, we are available for suggestions, improvements, VASTU corrections and any other type of housing related queries. With our extensive experience, we will be pleased to guide you!!</p>
         </div>
         <div class="col-lg2">
-          <div class="flex flex-aib c">
+          <div class="flex flex-aib flex-wrap c">
             <h3 class="p3">Email</h3>
             <p><a href="mailto:murlidhar28@gmail.com">murlidhar28@gmail.com</a></p>
           </div>
-          <div class="flex flex-aib c">
+          <div class="flex flex-aib flex-wrap c">
             <h3 class="p3">Phone</h3>
             <p><a href="tel:+919842430871">+91 9842430871</a></p>
           </div>
-          <div class="flex c">
-            <h4 class="p3">MS Vistara Location</h4>
+          <div class="flex c flex-wrap">
+            <h4 class="p3">MV Vistara Location</h4>
             <img src="@/assets/vistaralocation.jpg" alt="" class="mw-100 icon-small">
           </div>
         </div>

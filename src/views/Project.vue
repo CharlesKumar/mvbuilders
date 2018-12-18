@@ -3,7 +3,7 @@
     <div class="h-300 purple-bliss__gradient">
       <div class="c c-white flex flex-col flex-aic flex-jcc h-100p">
         <h2 class="times ttu">MV Builders</h2>
-        <h5>Good Projects are the wealth of a Company</h5>
+        <h5 class="tac">Good Projects are the wealth of a Company</h5>
       </div>
     </div>
     <!-- <h1 class="c">List of Our Projects</h1> -->
@@ -18,7 +18,7 @@
         </div>
         <div class="col-md2">
             <h3>MV Vistara <small class="mono">Defines Itself</small></h3>
-          <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, have the entire people in the Universe have the ambition to live at their lifetime especially during their retired livinghoods. As our project situated very near to thayar sannadhi and the first project in srirangam having the mandatory registration with RERA numbered as 16/2018(verify) we hope MV Vistara will fulfill the ambitions of srirangam loving people spread over the entire Universe.</p>
+          <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, where everyone in the Universe have an ambition to live during their lifetime, especially during their retired livelihood. Our project is situated very near to Thayar Sannidhi which is helpful for easy navigation, also an 8 passenger lift with ARD (Automatic Rescue Device) facility to cater the needs of all walks of life. We are happy to state that the first project in Srirangam to possess the mandatory registration with RERA numbered as TN/16/BUILDING/0330/2018. We assure MV Vistara will fulfill the ambitions of Srirangam-loving people spread all over the world.</p>
           <h4>Location Advantages</h4>
           <ul class="list-checked">
             <li><span>700 Meter from Srirangam Thayar Sannadhi.</span></li>
@@ -48,6 +48,13 @@
       <div class="row hero-margin">
         <div class="col-md2 flex-asc">
           <h3 class="accordion-title mb3 mt3 tal">Chaitanya Kutir 2017</h3>
+          <p>
+            On seeing all our earlier projects, Shri. Venkatramanan from sharjah having a very good land available very near to the Srirangam Temple rampart wall.
+with our enormous dedication and ultimate support from our architect and structural consultant and of course financial support from Shri. Venkatramanan.
+The project is completed within nine months and yielded very positive results as the owner himself holds all the five units constructed and running a successful service apartment venture.
+We proudly say upon all the above projects "Chaitany Kutir" gives immense support technically to us and financially to the owner.
+
+          </p>
 
         </div>
         <div class="col-md2">
@@ -58,25 +65,16 @@
         </div>
       </div>
       <div class="row hero-margin">
-        <div class="col-md2 card grey-bordered">
-          <img src="@/assets/mvpranavm.jpg" alt="Chaitanya Kutir" class="mw-100">
-          <h4 class="pl3 mb3 mt3">MV Pranavm</h4>
-
-        </div>
-        <div class="col-md2 flex-asc">
-            <h3 class="accordion-title mb3 mt3 tal">MV Pranavm - 2016</h3>
-        </div>
-      </div>
-      <div class="row hero-margin">
-        <div class="col-md2 flex-asc">
-          <h3 class="accordion-title mb3 mt3 tal">MV Dwaraka - 2015</h3>
-
-        </div>
-        <div class="col-md2">
+        <div class="col-md2 order__behind">
           <div class="card p3 mw-80 grey-bordered">
             <img src="@/assets/mvdwaraka.jpg" alt="MV Dwaraka" class="mw-100">
             <h4 class="mb3 mt3">MV Dwaraka</h4>
           </div>
+        </div>
+        <div class="col-md2 flex-asc">
+          <h3 class="accordion-title mb3 mt3 tal">MV Dwaraka - 2016</h3>
+         <p>On getting the astonishing results from pranavm and brindhavan, we decided to have condominiums that too in a duplex house pattern (ie- hall, kitchen, bedroom and toiletries at one level and additional two bedrooms with balconies and toiletries at next level)
+This proposal also clicked as having a very positive response as well as gives a delightful spatious ambience for the members of MV family.</p>
         </div>
       </div>
       <h3 class="">Aparajitha and MV Brindhavan - 2015</h3>
@@ -84,10 +82,28 @@
         <div class="col-md2 card grey-bordered">
           <img src="@/assets/aparajitha.jpg" alt="Aparajitha" class="mw-100">
             <h4 class="mb3 mt3">Aparajitha</h4>
+            <p>While doing brindhavan Project, an NRI wanted to have the project in a similar nature.
+We bought the plot and developed four large condominiums and at present all the houses are utilized as service apartments. We proudly say that aparajitha is the successful venture as it yields very good results for both builder and the customer.</p>
         </div>
         <div class="col-md2 card grey-bordered">
           <img src="@/assets/mvbrindhavan.jpg" alt="MV Brindhavan" class="mw-100">
             <h4 class="mb3 mt3">MV Brindhavan</h4>
+            <p>On completion of MV Pranavm, the next project brindhavan designed in such a way that the same amenities in a spatious floor space.
+That idea gives us pleasant results and comparitvely we sold all the units before completion.</p>
+        </div>
+      </div>
+      <div class="row hero-margin">
+        <div class="col-md2 card grey-bordered order__behind">
+          <img src="@/assets/mvpranavm.jpg" alt="Chaitanya Kutir" class="mw-100">
+          <h4 class="pl3 mb3 mt3">MV Pranavm</h4>
+
+        </div>
+        <div class="col-md2 flex-asc">
+            <h3 class="accordion-title mb3 mt3 tal">MV Pranavm - 2013</h3>
+            <p>pranavm defines the commencement of a creation wherein we found apt our first project named as pranavm.
+It consists of only four compact units with a huge UDS area (almost equivalent to floor area)
+All units have car parkings, modular kitchen and built-in wardrobes and cupboards.
+Being the first of its kind, all four units sold within a span of a month upon completion.</p>
         </div>
       </div>
       <!-- <div class="accordion hero-margin">
@@ -163,5 +179,15 @@ export default {
 <style lang="scss">
 .mw-80 {
   max-width: 80%;
+}
+
+.order__behind {
+  order: initial;
+}
+
+@media all and (max-width: 768px) {
+  .order__behind {
+    order: 1;
+  }
 }
 </style>
