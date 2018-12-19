@@ -13,6 +13,7 @@
     <div class="row c">
       <div class="col-md2">
         <img src="@/assets/MV2.jpg" alt="" class="mw-100">
+        <a class="vam mt2" href="/mvbuilders.pdf"><img class="icon-small" src="@/assets/pdf_file.png" alt="pdf file icon"><span class="vam fz-140p">Download MV Vistara Brochure</span></a>
       </div>
       <div class="col-md2">
         <h3>MV Vistara</h3>

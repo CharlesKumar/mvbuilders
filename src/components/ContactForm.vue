@@ -2,13 +2,13 @@
   <form class="flex flex-col" v-on:submit.prevent="sendMail()" id="contact-form" style="max-width: 620px;">
     <fieldset class="mb3 mt3 theme-bw-inverse">
       <label for="name">Name:</label>
-      <input id="name" name="username" class="transparent-bg border-0 pl2" type="text" placeholder="your name">
+      <input id="name" name="username" class="transparent-bg border-0 pl2" type="text" placeholder="your name" minlength="2" required>
     </fieldset>
     <fieldset class="mb3 mt3 theme-bw-inverse">
       <label for="email">Email:</label>
-      <input id="email" name="email" class="transparent-bg border-0 pl2" type="text" placeholder="youremail@mail.com">
+      <input id="email" name="email" class="transparent-bg border-0 pl2" type="email" placeholder="youremail@mail.com" required>
     </fieldset>
-    <textarea class="mb3 mt3 p2 transparent-bg" id="cf-msg" name="message" rows="8" cols="80"></textarea>
+    <textarea class="mb3 mt3 p2 transparent-bg" id="cf-msg" name="message" rows="8" cols="80" minlength="10" required></textarea>
     <input class="btn theme-bw-inverse mt3 p3" type="submit" name="submit" value="Send Message">
   </form>
 </template>
@@ -45,8 +45,9 @@ function sendMail() {
 </script>
 
 <style lang="scss">
-input[type="text"] {
-  width: 60%;
+input[type="text"],
+input[type="email"] {
+  width: 70%;
 }
 
 input[type="submit"] {

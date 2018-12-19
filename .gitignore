@@ -28,3 +28,4 @@ yarn-error.log*
 
 /vendor/
 /public/vendor/
+/public/contactform.php

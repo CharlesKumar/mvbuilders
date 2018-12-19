@@ -15,6 +15,7 @@
       <div class="row c">
         <div class="col-md2">
           <img src="@/assets/MV2.jpg" alt="" class="mw-100">
+          <a class="vam mt2" href="/mvbuilders.pdf"><img class="icon-small" src="@/assets/pdf_file.png" alt="pdf file icon"><span class="vam fz-140p">Download MV Vistara Brochure</span></a>
         </div>
         <div class="col-md2">
             <h3>MV Vistara <small class="mono">Defines Itself</small></h3>
@@ -48,13 +49,10 @@
       <div class="row hero-margin">
         <div class="col-md2 flex-asc">
           <h3 class="accordion-title mb3 mt3 tal">Chaitanya Kutir 2017</h3>
-          <p>
-            On seeing all our earlier projects, Shri. Venkatramanan from sharjah having a very good land available very near to the Srirangam Temple rampart wall.
-with our enormous dedication and ultimate support from our architect and structural consultant and of course financial support from Shri. Venkatramanan.
-The project is completed within nine months and yielded very positive results as the owner himself holds all the five units constructed and running a successful service apartment venture.
-We proudly say upon all the above projects "Chaitany Kutir" gives immense support technically to us and financially to the owner.
-
-          </p>
+          <p class="pb3">On seeing all our earlier projects, Shri. Venkatramanan from sharjah having a very good land available very near to the Srirangam Temple rampart wall.</p>
+          <p class="pb3">with our enormous dedication and ultimate support from our architect and structural consultant and of course financial support from Shri. Venkatramanan.</p>
+          <p class="pb3">The project is <span class="fz-120p c-green">completed within nine months</span> and yielded very positive results as the owner himself holds all the five units constructed and running a successful service apartment venture.</p>
+          <p class="pb3">We proudly say upon all the above projects "Chaitany Kutir" gives immense support technically to us and financially to the owner.</p>
 
         </div>
         <div class="col-md2">
@@ -73,8 +71,8 @@ We proudly say upon all the above projects "Chaitany Kutir" gives immense suppor
         </div>
         <div class="col-md2 flex-asc">
           <h3 class="accordion-title mb3 mt3 tal">MV Dwaraka - 2016</h3>
-         <p>On getting the astonishing results from pranavm and brindhavan, we decided to have condominiums that too in a duplex house pattern (ie- hall, kitchen, bedroom and toiletries at one level and additional two bedrooms with balconies and toiletries at next level)
-This proposal also clicked as having a very positive response as well as gives a delightful spatious ambience for the members of MV family.</p>
+         <p class="pb3">On getting the astonishing results from pranavm and brindhavan, we decided to have condominiums that too in a duplex house pattern (ie- hall, kitchen, bedroom and toiletries at one level and additional two bedrooms with balconies and toiletries at next level)</p>
+         <p class="pb3">This proposal also clicked as having a very positive response as well as gives a delightful spatious ambience for the members of MV family.</p>
         </div>
       </div>
       <h3 class="">Aparajitha and MV Brindhavan - 2015</h3>
@@ -89,7 +87,7 @@ We bought the plot and developed four large condominiums and at present all the 
           <img src="@/assets/mvbrindhavan.jpg" alt="MV Brindhavan" class="mw-100">
             <h4 class="mb3 mt3">MV Brindhavan</h4>
             <p>On completion of MV Pranavm, the next project brindhavan designed in such a way that the same amenities in a spatious floor space.
-That idea gives us pleasant results and comparitvely we sold all the units before completion.</p>
+That idea gives us pleasant results and comparitvely <span class="fz-120p c-green">we sold all the units before completion</span>.</p>
         </div>
       </div>
       <div class="row hero-margin">
@@ -100,10 +98,10 @@ That idea gives us pleasant results and comparitvely we sold all the units befor
         </div>
         <div class="col-md2 flex-asc">
             <h3 class="accordion-title mb3 mt3 tal">MV Pranavm - 2013</h3>
-            <p>pranavm defines the commencement of a creation wherein we found apt our first project named as pranavm.
-It consists of only four compact units with a huge UDS area (almost equivalent to floor area)
-All units have car parkings, modular kitchen and built-in wardrobes and cupboards.
-Being the first of its kind, all four units sold within a span of a month upon completion.</p>
+            <p class="pb3">pranavm defines the <span class="fz-140p c-green">commencement of a creation</span> wherein we found apt our first project named as pranavm.</p>
+            <p class="pb3">It consists of only four compact units with a huge UDS area (almost equivalent to floor area)</p>
+            <p class="pb3">All units have car parkings, modular kitchen and built-in wardrobes and cupboards.</p>
+            <p class="pb3">Being the first of its kind, all four units sold within a span of a month upon completion.</p>
         </div>
       </div>
       <!-- <div class="accordion hero-margin">
@@ -179,6 +177,10 @@ export default {
 <style lang="scss">
 .mw-80 {
   max-width: 80%;
+}
+
+.fz-110p {
+  font-size: 110%;
 }
 
 .order__behind {
