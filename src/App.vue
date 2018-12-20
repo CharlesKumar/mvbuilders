@@ -2,9 +2,12 @@
   <div id="app" >
     <header class="flex flex-jcsa z-1">
       <div id="brand" class="flex flex-jcsb">
-        <div>
-          <img src="@/assets/mvlogo.png" class="ml2" alt="" id="logo"><h3 class="inline-block times vat ttu">Builders</h3>
+        <div><div class="flex flex-aic">
+          <img src="@/assets/mvlogo.png" class="ml2" alt="" id="logo">
+          <h3 class="times ml1 ttu">Builders</h3>
         </div>
+        <span id="sbs" style="display: block;">Building Happy Homes</span>
+      </div>
         <button id="mm-toggle" class="btn mm-toggle burger"></button>
       </div>
       <nav class="main-nav">
@@ -62,6 +65,18 @@
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#sbs {
+  position: relative;
+  left: 70px;
+  top: -10px;
+}
+
+@media all and (max-width: 768px) {
+  #sbs {
+    left: 45px;
+  }
 }
 
 .top--adjust {

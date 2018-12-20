@@ -34,8 +34,8 @@
         <div class="col-md2">
           <h2 class="c tac">Future Proof</h2>
           <ul class="list-checked">
-            <li><span>Government approved Plots with RERA registration</span></li>
-            <li><span>Clear legal title/opinion from eminent lawyers</span></li>
+            <li><span>Government approved flats with (mandatory) RERA registration</span></li>
+            <li><span>Clear title and legal opinion from eminent lawyers</span></li>
             <li hidden="true">lightning/storm earthquakeproof</li>
             <li><span>Ground water level proof with cauvery and kollidam on either side</span></li>
             <li><span>Copious continuous water supply bore wells in addition to municipal water supply</span></li>
@@ -91,7 +91,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-attached h-500" style="background: url('https://source.unsplash.com/1920x800?construction');">
+    <div class="bg-attached h-500" id="uc-bg">
 
     </div>
   </div>
@@ -113,8 +113,14 @@ export default {
 //   font-size: 1.12em;
 // }
 
-.row p {
-  text-indent: 50px;
+#about-page {
+  #uc-bg {
+    background: url("../assets/underconstruction.jpeg");
+    background-size: cover;
+  }
+  .row p {
+    text-indent: 50px;
+  }
 }
 
 .nowrap-text {
