@@ -7,6 +7,8 @@ $transport = new Swift_SmtpTransport('smtp.gmail.com', 587, 'tls');
 
 $transport->setUsername('srgm.mvbuilders@gmail.com')
     ->setPassword('mvbuilders@123');
+// $transport->setUsername('charlesdummy12@gmail.com')
+//     ->setPassword('regenerate');
 
 
 // Create the Mailer using your created Transport
