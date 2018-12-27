@@ -3,10 +3,10 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Carousel :images="images"></Carousel>
     <h1 class="c">A warm welcome from <span class="times ttu">MV Builders</span></h1>
-    <div class="warn-site c">
+    <!-- <div class="warn-site c">
       <p><mark>please note:</mark> The website mvbuilders.in is under Construction.</p>
       <p>You may see irrelevant information and layout during this period.</p>
-    </div>
+    </div> -->
     <div class="c tac">
       <h2>Our Current Project <br> <small class="times">MV Vistara Homes</small></h2>
     </div>
@@ -20,7 +20,7 @@
         <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, where everyone in the Universe have an ambition to live during their lifetime, especially during their retired livelihood. Our project is situated very near to Thayar Sannidhi which is helpful for easy navigation, also an 8 passenger lift with ARD (Automatic Rescue Device) facility to cater the needs of all walks of life. We are happy to state that the first project in Srirangam to possess the mandatory registration with RERA numbered as TN/16/BUILDING/0330/2018. We assure MV Vistara will fulfill the ambitions of Srirangam-loving people spread all over the world.</p>
         <h4>Location Advantages</h4>
         <ul class="list-checked">
-          <li><span>700 Meter from Srirangam Thayar Sannadhi.</span></li>
+          <li><span>Around 1km from Srirangam Thayar Sannadhi.</span></li>
           <li><span>Lush Green Environment</span></li>
           <li><span>2km from Bus Stand/Railway Station.</span></li>
           <li><span>3km from Government Butterfly Park.</span></li>
@@ -114,13 +114,13 @@ export default {
       componentKey: 0,
       images: [
         {
-          src: require("@/assets/MV2.jpg"),
+          src: require("@/assets/mvb.jpg"),
           alt: "mv brindhavan homes",
           heading: "MV Vistara",
           caption: "Defines Itself"
         },
         {
-          src: require("@/assets/MV2.jpg"),
+          src: require("@/assets/mvb.jpg"),
           alt: "mv dwaraka homes",
           heading: "MV Builders",
           caption: "Friendly Companion for Construction Business"

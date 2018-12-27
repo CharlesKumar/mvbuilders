@@ -11,7 +11,7 @@
     <textarea class="mb3 mt3 p2 transparent-bg" id="cf-msg" name="message" rows="8" cols="80" minlength="10" required></textarea>
     <input class="btn theme-bw-inverse mt3 p3" type="submit" name="submit" value="Send Message">
   </form>
-  <h3 id="sent-msg" class="c-white" hidden>your form has be successfully sent</h3></div>
+  <h3 id="sent-msg" class="c-white" hidden>your mail has be successfully sent</h3></div>
 </template>
 
 <script>
