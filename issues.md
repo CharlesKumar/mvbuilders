@@ -12,3 +12,7 @@ use vw units to p for breakpoint intensive container
 
 how to use root vue instance methods in views/components
 how to use root vue instance methods in props/attributes
+
+
+
+https://stackoverflow.com/questions/14963393/my-body-background-color-disappears-when-scrolling    (html, body height 100%)

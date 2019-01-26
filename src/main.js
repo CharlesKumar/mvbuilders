@@ -1,12 +1,14 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import stickybits from "stickybits";
+// import stickybits from "stickybits";
+import headroom from "vue-headroom";
 import zenscroll from "zenscroll";
 import * as help from "./js/helpers.js";
 import VueHead from "vue-head";
 
 Vue.use(VueHead);
+Vue.use(headroom);
 
 Vue.config.productionTip = false;
 
@@ -41,4 +43,4 @@ new Vue({
   render: h => h(App)
 }).$mount("#app");
 
-stickybits(document.querySelector("header"), { useStickyClasses: true });
+// stickybits(document.querySelector("header"), { useStickyClasses: true });

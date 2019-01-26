@@ -1,28 +1,30 @@
 <template>
   <div id="app" >
-    <header class="flex flex-jcsa z-1">
-      <div id="brand" class="flex flex-jcsb">
-        <div><div class="flex flex-aic">
-          <img src="@/assets/mvlogo.png" class="ml2" alt="" id="logo">
-          <h3 class="times ml1 ttu">Builders</h3>
+    <vueHeadroom>
+      <header class="flex flex-jcsa z-1">
+        <div id="brand" class="flex flex-jcsb">
+          <div><div class="flex flex-aic">
+            <img src="@/assets/mvlogo.png" class="ml2" alt="" id="logo">
+            <h3 class="times ml1 ttu">Builders</h3>
+          </div>
+          <span id="sbs" style="display: block;">Building Happy Homes</span>
         </div>
-        <span id="sbs" style="display: block;">Building Happy Homes</span>
-      </div>
-        <button id="mm-toggle" class="btn mm-toggle burger"></button>
-      </div>
-      <nav class="main-nav">
-        <ul id="nav-roller" class="nav-container">
-          <li class="nav-item"><router-link @click.native="$scrollToTop" to="/">Home</router-link></li>
-          <li class="nav-item"><router-link @click.native="$scrollToTop" to="/about">About</router-link></li>
-          <li class="nav-item"><router-link @click.native="$scrollToTop" to="/project">Projects</router-link></li>
-          <li class="nav-item"><router-link @click.native="$scrollToTop" :to="{path: 'contact'}">Contact</router-link></li>
-          <!-- <li class="nav-item"><a href=""></a></li>
-          <li class="nav-item"><a href=""></a></li> -->
-        </ul>
-      </nav>
-    </header>
+          <button id="mm-toggle" class="btn mm-toggle burger"></button>
+        </div>
+        <nav class="main-nav">
+          <ul id="nav-roller" class="nav-container">
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/">Home</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/about">About</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" to="/project">Projects</router-link></li>
+            <li class="nav-item"><router-link @click.native="$scrollToTop" :to="{path: 'contact'}">Contact</router-link></li>
+            <!-- <li class="nav-item"><a href=""></a></li>
+            <li class="nav-item"><a href=""></a></li> -->
+          </ul>
+        </nav>
+      </header>
+    </vueHeadroom>
     <router-view class="mh-100v" />
-    <footer>
+    <footer class="pb3">
       <div class="row">
         <div class="col-md3">
           <h4>Contact</h4>

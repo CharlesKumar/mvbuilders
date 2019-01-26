@@ -1,8 +1,8 @@
 header {
   flex-direction: column;
   @include media(">tablet") {
-    position: fixed !important;
-    background-color: transparent;
+    // position: fixed !important;
+    // background-color: transparent;
     flex-direction: row;
   }
   width: 100%;
