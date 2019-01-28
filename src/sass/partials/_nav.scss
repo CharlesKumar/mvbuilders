@@ -1,3 +1,10 @@
+.headroom--top header {
+  background-color: transparent !important;
+//   @include media(">tablet") {
+//     background-color: transparent !important;
+//   }
+}
+
 header {
   flex-direction: column;
   @include media(">tablet") {
@@ -22,7 +29,7 @@ header {
   padding: 0;
   background-color: transparent;
   color: white;
-  top: -15px;
+  top: -25px;
   right: 10px;
   align-self: flex-end;
   cursor: pointer;
@@ -33,7 +40,10 @@ header {
 }
 
 nav.main-nav {
-  // background-color: white;
+  background-color: #000;
+  @include media(">tablet") {
+    background-color: transparent !important;
+  }
   // background-color: var(--nav-bg-color);
   flex: 1 0 45%;
   display: flex;

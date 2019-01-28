@@ -16,3 +16,6 @@ how to use root vue instance methods in props/attributes
 
 
 https://stackoverflow.com/questions/14963393/my-body-background-color-disappears-when-scrolling    (html, body height 100%)
+
+vue-headroom plugin registration name headroom or vueHeadroom
+understanding component registration in vue

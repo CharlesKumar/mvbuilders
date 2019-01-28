@@ -50,10 +50,13 @@ const router = new Router({
   }
 });
 
-// router.beforeEach((to, from, next) => {
-//   console.log(to);
-//   console.log(from);
-//   next();
-// });
+router.beforeEach((to, from, next) => {
+  let navT = document.querySelector("#mm-toggle");
+  if (navT.classList.contains("menu-active")) {
+    navT.click();
+  }
+  // console.log(document.querySelector('#mm-toggle').classList.remove('menu-active'));
+  next();
+});
 
 export default router;

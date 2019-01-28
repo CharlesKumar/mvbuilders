@@ -1,6 +1,6 @@
 <template>
   <div id="app" >
-    <vueHeadroom>
+    <vueHeadroom speed="700" upTolerance="0" downTolerance="15">
       <header class="flex flex-jcsa z-1">
         <div id="brand" class="flex flex-jcsb">
           <div><div class="flex flex-aic">
