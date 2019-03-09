@@ -56,13 +56,13 @@
         </Card>
       </div>
     </div> -->
-    <h2 class="c">Words from our customers</h2>
-    <div :key="componentKey" class="c review-slider">
+    <h2 class="c page-break">Words from our customers</h2>
+    <div :key="componentKey" class="c review-slider print-small">
       <!-- window.innerWidth on slides instead of w-100p -->
       <div class="w-100p review-c">
         <Review :reviews="reviews[0]"></Review>
       </div>
-      <div class="w-100p review-c">
+      <div class="w-100p review-c page-break page-break-after">
         <Review :reviews="reviews[1]"></Review>
       </div>
       <div class="w-100p review-c">
@@ -82,7 +82,7 @@
       </div> -->
     </div>
     <!-- <img src="@/assets/main_cover.jpg" alt="" class=""> -->
-    <div class="h-500" style="background: url('/main_cover.jpg') 30% 0% no-repeat; background-size: cover;">
+    <div class="h-500 page-break" style="background: url('/main_cover.jpg') 30% 0% no-repeat; background-size: cover;">
       <div class="row">
         <div class="col-md2"></div>
         <div class="col-md2 c lg-hide">
@@ -152,7 +152,7 @@ export default {
     };
   },
   mounted() {
-    tns({
+    let reviewSlider = tns({
       container: ".review-slider",
       items: 1,
       mode: "carousel",
@@ -190,6 +190,14 @@ export default {
         1100: {
           edgePadding: 50
         }
+      }
+    });
+
+    let printMQL = window.matchMedia("print");
+
+    printMQL.addListener(function(mql) {
+      if (mql.matches) {
+        reviewSlider.destroy();
       }
     });
 

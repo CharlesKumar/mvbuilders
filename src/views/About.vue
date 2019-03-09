@@ -14,8 +14,9 @@
           <h2 class="c tac">Our Growth</h2>
           <p class="para d-center">We believe in the best and the oldest means of marketing - <span class="nowrap-text fz-140p">Word of Mouth</span>. Our satisfied customers become members of the MV family and they can vouch for our quality and sophistication. We are proud to say that all the families are living in a friendly healthy ambience from the day of moving in to our homes.</p>
         </div>
-        <div class="col-md2">
-          <h2 class="c tac">Our Quality</h2>
+        <div class="print-only-page-break"></div>
+        <div class="col-md2 print-margin-top">
+          <h2 class="c tac page-break">Our Quality</h2>
           <p class="para d-center">Our quality is constantly guaranteed by the quiet and experienced masonry teams, carpentry workers who have mastered the art of accurate finishing, immensely knowledgeable electricians, and plumbers from Orissa. Highly skilled and updated painters shine on our profile for a very long duration as we are constantly engaging the same team for our all ventures since the last couple of decades.
           Even after completion of various projects, petty maintenance works required by our esteemed clients are attended by our team without failure at their convenient time.</p>
         </div>
@@ -30,7 +31,7 @@
           <p class="para d-center">We got professional guidance from our beloved architect having experienced and specialized in floor plans plotted as per vasthu specifications and a good support from our structural consultant having the details in support to our architects vision. We proudly confers all our apartment buildings so far sold and doing now are with 100 percent vasthu compliance.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row page-break">
         <div class="col-md2">
           <h2 class="c tac">Future Proof</h2>
           <ul class="list-checked">
@@ -48,7 +49,7 @@
         </div>
       </div>
     </div>
-    <div class="row c">
+    <div class="row c page-break">
       <div class="col-md2">
         <Card ctitle="Pleasant Atmosphere">
           <div slot="cbody">
@@ -61,7 +62,7 @@
           </div>
         </Card>
       </div>
-      <div class="col-md2">
+      <div class="col-md2 print-margin-top-medium">
         <Card ctitle="Green Environment">
           <div slot="cbody">
              <img src="@/assets/aparajitha.jpg" alt="" class="mw-100">
@@ -74,7 +75,7 @@
         </Card>
       </div>
     </div>
-    <div class="pinot-noir__gradient">
+    <div class="pinot-noir__gradient page-break">
       <div class="c c-white hero-padding"><h2 class="mt3">Founder</h2>
         <!-- <img src="https://source.unsplash.com/480x320?men" alt=""> -->
         <div class="row">
@@ -83,7 +84,7 @@
             <h5 class="mt2">K Muralidharan</h5>
             <!-- <p class="para">commenced career as early at 1987 experienced in various type of civil constructions. Having a rich exposure in apartment constructions both at coimbatore and trichy. Projects done so far have all the amenities in place and car parking each for all the flats in addition no hidden charges (ie) price includes everything. Having good work force for all types of civil constructions and interiors as we proudly say we have completed all our projects within the stipulated timeperiod. "</p> -->
           </div>
-          <div class="col-md2 c">
+          <div class="col-md2 c print-margin-top">
             <h2 class="c">Decades of experience <br> <small>Pioneer in the housing field</small></h2>
             <!-- <h3 class="c">Pioneer in the housing field</h3> -->
             <p class="para no-indent"> <span class="ttu">K Muralidharan</span> commenced his construction career as early as 1987. He is a seasoned and skillful builder with abundant experience in multiple types of civil constructions. He has diverse vision owing to his rich exposure in apartment constructions at Coimbatore and Trichy, as well. Projects completed and delivered thus far have all the amenities in place and individual car parking slots for all the flats. We have a transparent business model which enables no hidden charges. The price quoted includes <span class="ttu">everything</span>. Professional work force that is competent in all types of civil constructions and interiors is the prime reason behind our impeccable execution and on-time delivery track record. We feel accomplished to claim that we have completed all our projects within the stipulated time period.</p>

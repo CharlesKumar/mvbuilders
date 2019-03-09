@@ -1,5 +1,5 @@
 .headroom--top header {
-  background-color: transparent !important;
+  background-color: transparent;
 //   @include media(">tablet") {
 //     background-color: transparent !important;
 //   }
@@ -25,6 +25,7 @@ header {
 }
 
 .mm-toggle {
+  position: relative;
   border: 0;
   padding: 0;
   background-color: transparent;

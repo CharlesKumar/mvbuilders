@@ -10,3 +10,57 @@ blockquote {
   width: 100%;
   margin: 0;
 }
+
+.print-only-page-break {
+  display: none;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .print-margin-top {
+    margin-top: 100px;
+  }
+
+  .print-margin-top-medium {
+    margin-top: 200px;
+  }
+
+  .page-break, .print-only-page-break {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .no-page-break-after {
+    page-break-after: avoid;
+  }
+
+  // .print-small {
+  //   width: 600px !important;
+  // }
+
+  // .headroom--unpinned {
+  //   transform: translate3d(0px, -100%, 0px) !important;
+  // }
+  //
+  header {
+    display: none !important;
+  }
+
+}
+
+
+// .headroom--unpinned {
+//   transform: translate3d(0px, -0, 0px) !important;
+// }
+//
+// @media (max-height: 30em) and (orientation: landscape) {
+// .headroom--unpinned {
+//   transform: translate3d(0px, -100%, 0px) !important;
+// }
+// }

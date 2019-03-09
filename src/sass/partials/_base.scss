@@ -22,10 +22,10 @@ $brkpoints: (
 $sass-burger-add-vendor-prefixes: false;
 
 .burger {
-  @include burger($gutter: 6px, $width: 40px, $height: 3px, $color: #fff);
+  @include burger($gutter: 6px, $width: 40px, $height: 4px, $color: #fff);
 }
 
-.menu-active.burger {
+.menu-active .burger {
   @include burger-to-cross;
 }
 
@@ -106,7 +106,7 @@ $sass-burger-add-vendor-prefixes: false;
   align-items: center;
 }
 body {
-  background-color: var(--primary-color);
+  // background-color: var(--primary-color);
   // background-image: radial-gradient(white, var(--primary-color));
   // background-image: radial-gradient(var(--primary-color), lighten($color4, 10%));
   background-image: radial-gradient(lighten($color2, 30%), #eff4f7);

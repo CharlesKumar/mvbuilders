@@ -1,11 +1,14 @@
 function attachNavEvent() {
   var mainNavToggle = document.getElementById("mm-toggle");
   var navRoller = document.getElementById("nav-roller");
+  var header = document.getElementsByTagName("header")[0];
 
   mainNavToggle.addEventListener("click", function(e) {
     e.preventDefault();
+    e.stopPropagation();
     toggleClass(navRoller, "h-show");
     toggleClass(mainNavToggle, "menu-active");
+    toggleClass(header, "strict-bg");
   });
 }
 
