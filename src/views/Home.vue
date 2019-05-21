@@ -2,22 +2,44 @@
   <div class="home">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Carousel :images="images"></Carousel>
-    <h1 class="c">A warm welcome from <span class="times ttu">MV Builders</span></h1>
+    <h1 class="c">
+      A warm welcome from <span class="times ttu">MV Builders</span>
+    </h1>
     <!-- <div class="warn-site c">
       <p><mark>please note:</mark> The website mvbuilders.in is under Construction.</p>
       <p>You may see irrelevant information and layout during this period.</p>
     </div> -->
     <div class="c tac">
-      <h2>Our Current Project <br> <small class="times">MV Vistara Homes</small></h2>
+      <h2>
+        Our Current Project <br />
+        <small class="times">MV Vistara Homes</small>
+      </h2>
     </div>
     <div class="row c">
       <div class="col-md2">
-        <img src="@/assets/MV2.jpg" alt="" class="mw-100">
-        <a class="vam mt2" href="/mvbuilders.pdf"><img class="icon-small" src="@/assets/pdf_file.png" alt="pdf file icon"><span class="vam fz-140p">Download MV Vistara Brochure</span></a>
+        <img src="@/assets/MV2.jpg" alt="image of MV Vistara" class="mw-100" />
+        <a class="vam mt2" href="/mvbuilders.pdf"
+          ><img
+            class="icon-small"
+            src="@/assets/pdf_file.png"
+            alt="pdf file icon"
+          /><span class="vam fz-140p">Download MV Vistara Brochure</span></a
+        >
       </div>
       <div class="col-md2">
         <h3>MV Vistara</h3>
-        <p>Happy to launch our new project in Boologa Vaikundam, Srirangam, where everyone in the Universe have an ambition to live during their lifetime, especially during their retired livelihood. Our project is situated very near to Thayar Sannidhi which is helpful for easy navigation, also an 8 passenger lift with ARD (Automatic Rescue Device) facility to cater the needs of all walks of life. We are happy to state that the first project in Srirangam to possess the mandatory registration with RERA numbered as TN/16/BUILDING/0330/2018. We assure MV Vistara will fulfill the ambitions of Srirangam-loving people spread all over the world.</p>
+        <p>
+          Happy to launch our new project in Boologa Vaikundam, Srirangam, where
+          everyone in the Universe have an ambition to live during their
+          lifetime, especially during their retired livelihood. Our project is
+          situated very near to Thayar Sannidhi which is helpful for easy
+          navigation, also an 8 passenger lift with ARD (Automatic Rescue
+          Device) facility to cater the needs of all walks of life. We are happy
+          to state that the first project in Srirangam to possess the mandatory
+          registration with RERA numbered as TN/16/BUILDING/0330/2018. We assure
+          MV Vistara will fulfill the ambitions of Srirangam-loving people
+          spread all over the world.
+        </p>
         <h4>Location Advantages</h4>
         <ul class="list-checked">
           <li><span>Around 1km from Srirangam Thayar Sannadhi.</span></li>
@@ -28,7 +50,14 @@
       </div>
     </div>
     <div class="c">
-      <iframe class= "gmapvistara" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3918.2907756125733!2d78.68257536474216!3d10.86547434226112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3baaf677a73db341%3A0x9722303799dcab1b!2sRanganayaki+Thaayaar+Sannadhi%2C+33%2C+N+Uthrai+St%2C+Sriramapuram%2C+Srirangam%2C+Tiruchirappalli%2C+Tamil+Nadu+620006!3m2!1d10.8639689!2d78.6890763!4m5!1s0x3baaf7c1b7e4dc59%3A0xaa1c44bdf6e1e003!2sMV+Vistara%2C+Srirangam%2C+Tamil+Nadu+620006!3m2!1d10.8681444!2d78.68073059999999!5e0!3m2!1sen!2sin!4v1545022870236" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe
+        class="gmapvistara"
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3918.2907756125733!2d78.68257536474216!3d10.86547434226112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3baaf677a73db341%3A0x9722303799dcab1b!2sRanganayaki+Thaayaar+Sannadhi%2C+33%2C+N+Uthrai+St%2C+Sriramapuram%2C+Srirangam%2C+Tiruchirappalli%2C+Tamil+Nadu+620006!3m2!1d10.8639689!2d78.6890763!4m5!1s0x3baaf7c1b7e4dc59%3A0xaa1c44bdf6e1e003!2sMV+Vistara%2C+Srirangam%2C+Tamil+Nadu+620006!3m2!1d10.8681444!2d78.68073059999999!5e0!3m2!1sen!2sin!4v1545022870236"
+        height="450"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+      ></iframe>
     </div>
     <!-- <div class="row">
       <div class="col-md2">
@@ -82,7 +111,10 @@
       </div> -->
     </div>
     <!-- <img src="@/assets/main_cover.jpg" alt="" class=""> -->
-    <div class="h-500 page-break" style="background: url('/main_cover.jpg') 30% 0% no-repeat; background-size: cover;">
+    <div
+      class="h-500 page-break"
+      style="background: url('/main_cover.jpg') 30% 0% no-repeat; background-size: cover;"
+    >
       <div class="row">
         <div class="col-md2"></div>
         <div class="col-md2 c lg-hide">
@@ -91,7 +123,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -146,7 +177,7 @@ export default {
             "It's been a pleasure and satisfying experience to do Business with Mr. K. Muralidharan (M.V.Builders). They are a strong team of people & project after project the outcomes have only got better & better. MV builders never compromise quality and detailing, exceptional design and craftsmanship. Best part is their friendly approach, transparent transactions and perfect documentations. Strategic location for most of the projects is also a plus. In total, a property from M.V.Builders is fairly priced , value for money and a best home.",
           reviewer: "Mrs. HARINI and Mr. ARVIND.",
           designation: "MV Pranavm, MV Brindhavan clients",
-          src: require("@/assets/rv3.jpeg")
+          src: require("@/assets/rv3.jpg")
         }
       ]
     };

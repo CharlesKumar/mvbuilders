@@ -5,10 +5,10 @@
       <h5>{{reviews.reviewer}}</h5>
       <small>{{reviews.designation}}</small>
     </blockquote> -->
-    <img :src="reviews.src" alt="" class="review-img mb3">
-    <p class="d-center mb3">{{reviews.review}}</p>
-    <h5>{{reviews.reviewer}}</h5>
-    <small>{{reviews.designation}}</small>
+    <img :src="reviews.src" alt="image of reviewer" class="review-img mb3" />
+    <p class="d-center mb3">{{ reviews.review }}</p>
+    <h5>{{ reviews.reviewer }}</h5>
+    <small>{{ reviews.designation }}</small>
   </div>
 </template>
 

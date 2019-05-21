@@ -1,17 +1,17 @@
 <template lang="html">
-    <div class="carousel no-print" v-cloak>
+  <div class="carousel no-print" v-cloak>
+    <!-- <img v-for="image in images" :src="image.src"  :alt="image.alt" :key="image.src" class="mw-100"> -->
 
-      <!-- <img v-for="image in images" :src="image.src"  :alt="image.alt" :key="image.src" class="mw-100"> -->
-
-      <div class="slidewrap por" v-for="image in images" :key="image.src">
-        <div class="overlay">
-          <h1 class="highlight--underline times ttu slider__heading">{{image.heading}}</h1>
-          <p class="highlight--underline slider__caption">{{image.caption}}</p>
-        </div>
-        <img  :src="image.src"  :alt="image.alt" >
+    <div class="slidewrap por" v-for="image in images" :key="image.src">
+      <div class="overlay">
+        <h1 class="highlight--underline times ttu slider__heading">
+          {{ image.heading }}
+        </h1>
+        <p class="highlight--underline slider__caption">{{ image.caption }}</p>
       </div>
-
+      <img :src="image.src" :alt="image.alt" />
     </div>
+  </div>
 </template>
 
 <script>
