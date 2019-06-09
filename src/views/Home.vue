@@ -88,13 +88,13 @@
     <h2 class="c page-break">Words from our customers</h2>
     <div :key="componentKey" class="c review-slider print-small">
       <!-- window.innerWidth on slides instead of w-100p -->
-      <div class="w-100p review-c">
+      <div class="review-c">
         <Review :reviews="reviews[0]"></Review>
       </div>
-      <div class="w-100p review-c page-break page-break-after">
+      <div class="review-c page-break page-break-after">
         <Review :reviews="reviews[1]"></Review>
       </div>
-      <div class="w-100p review-c">
+      <div class="review-c">
         <Review :reviews="reviews[2]"></Review>
       </div>
       <!-- <div class="">

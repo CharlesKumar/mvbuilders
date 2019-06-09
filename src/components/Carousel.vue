@@ -35,7 +35,7 @@ export default {
       autoHeight: false,
       nav: false,
       // fixedWidth: 1200,
-      // autoWidth: true,
+      // autoWidth: false,
       // slideBy: "page",
       slideBy: 1,
       autoplay: true
@@ -70,7 +70,8 @@ export default {
   .tns-nav {
     position: absolute;
     bottom: 30px;
-    left: 47%;
+    left: 50%;
+    transform: translatex(-50%);
     z-index: 1;
   }
   .tns-item {

@@ -198,14 +198,17 @@
         Progress of <span class="times">MV Pranavm</span>
       </h2>
       <img
+        class="mw-100"
         src="../assets/underconstruction (1).jpg"
         alt="images of MV Pranavm construction progess"
       />
       <img
+        class="mw-100"
         src="../assets/underconstruction (2).jpg"
         alt="images of MV Pranavm construction progess"
       />
       <img
+        class="mw-100"
         src="../assets/underconstruction (3).jpg"
         alt="images of MV Pranavm construction progess"
       />

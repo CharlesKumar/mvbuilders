@@ -8,20 +8,11 @@
 header {
   flex-direction: column;
   @include media(">tablet") {
-    // position: fixed !important;
-    // background-color: transparent;
     flex-direction: row;
   }
   width: 100%;
   background-color: #000;
   color: white;
-  // background-color: white;
-  // background-color: var(--nav-bg-color);
-  &.js-is-sticky--change, &.js-is-stuck {
-    position: sticky;
-    background-color: #000;
-    // box-shadow: 0px 1px 3px 1px;
-  }
 }
 
 .mm-toggle {
@@ -36,7 +27,6 @@ header {
   cursor: pointer;
   @include media(">tablet") {
     visibility: hidden;
-    // display: none;
   }
 }
 
@@ -44,20 +34,17 @@ nav.main-nav {
   background-color: #000;
   @include media(">tablet") {
     background-color: transparent !important;
+    flex: 0 0 60%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
   }
-  // background-color: var(--nav-bg-color);
   flex: 1 0 45%;
   display: flex;
   padding-right: 5%;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
-  @include media(">tablet") {
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-around;
-  }
 
   ul.nav-container {
     list-style-type: none; //bad practice decouple it as seperate list-reset class
@@ -73,7 +60,7 @@ nav.main-nav {
       overflow: visible;
       display: flex;
       flex-wrap: wrap;
-      // justify-content: flex-end;
+      justify-content: flex-end;
     }
 
     li.nav-item {

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="review d-center tac justify p2 hero-margin">
+  <div class="review tac p2 hero-margin">
     <!-- <blockquote>
       <p>{{reviews.review}}</p>
       <h5>{{reviews.reviewer}}</h5>
@@ -32,6 +32,7 @@ export default {
 }
 .review {
   background-color: rgb(250, 235, 215);
+  width: 90vw;
 
   .review-img {
     border-radius: 50%;

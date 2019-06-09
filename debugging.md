@@ -117,3 +117,7 @@ helper functions
 
 transformCore
 render()
+
+
+---------------
+autowidth: true on gallery mode breaks in tiny-slider (v2.9.2)
