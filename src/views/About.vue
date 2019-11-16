@@ -195,23 +195,40 @@
     <div class="bg-cover h-bg" id="uc-bg3"></div> -->
     <div class="tac">
       <h2 class="mb3 mt3 pb3 pt3">
-        Progress of <span class="times">MV Pranavm</span>
+        Progress of <span class="times">MV Vistara</span>
       </h2>
-      <img
-        class="mw-100"
-        src="../assets/underconstruction (1).jpg"
-        alt="images of MV Pranavm construction progess"
-      />
-      <img
-        class="mw-100"
-        src="../assets/underconstruction (2).jpg"
-        alt="images of MV Pranavm construction progess"
-      />
-      <img
-        class="mw-100"
-        src="../assets/underconstruction (3).jpg"
-        alt="images of MV Pranavm construction progess"
-      />
+      <div class="row">
+        <div class="col-md2">
+          <img
+            class="mw-100"
+            src="../assets/underconstruction (1).jpg"
+            alt="images of MV Vistara construction progess"
+          />
+        </div>
+        <div class="col-md2">
+          <img
+            class="mw-100"
+            src="../assets/underconstruction (2).jpg"
+            alt="images of MV Vistara construction progess"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md2">
+          <img
+            class="mw-100"
+            src="../assets/underconstruction (3).jpg"
+            alt="images of MV Vistara construction progess"
+          />
+        </div>
+        <div class="col-md2">
+          <img
+            class="mw-100"
+            src="../assets/underconstruction (4).jpg"
+            alt="images of MV Vistara construction progess"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
