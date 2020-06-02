@@ -153,7 +153,7 @@
     <div class="pinot-noir__gradient page-break">
       <div class="c c-white hero-padding">
         <h2 class="mt3">Founder</h2>
-        <!-- <img src="https://source.unsplash.com/480x320?men" alt=""> -->
+        <!-- <img src="https://source.unsplash.com/480x320?men" alt="an image of a man working, downloaded from unsplash.com"> -->
         <div class="row">
           <div class="col-md2 p3">
             <img
@@ -195,39 +195,88 @@
     <div class="bg-cover h-bg" id="uc-bg3"></div> -->
     <div class="tac">
       <h2 class="mb3 mt3 pb3 pt3">
-        Progress of <span class="times">MV Vistara</span>
+        <span class="times">MV Vistara</span>
+        <span> is ready to be occupied.</span>
       </h2>
+      <p class="para c d-center">
+        Our Latest Project, MV VIstara is completed construction in the midst of
+        <span class="fz-120p c-green nowrap-text">Lush Green Environment</span>.
+        MV Vistara consists of 20 homes with wide parking area, 8 passenger lift
+        facility, copious continuos water supply, etc., Two families already
+        occupied the home, 7 people registered the home and 13 homes are ready
+        to be occupied. <br />
+        <span class="fz-140p c-red nowrap-text">Hurry up!</span> Visit the home
+        and make it yours.
+        <router-link @click.native="$scrollToTop" to="/contact"
+          >Click Here for Contact details
+        </router-link>
+        or <a class="" href="tel:+919842430871">call +91 9842430871</a>
+      </p>
       <div class="row">
         <div class="col-md2">
           <img
             class="mw-100"
-            src="../assets/underconstruction (1).jpg"
-            alt="images of MV Vistara construction progess"
+            src="../assets/frontview4.jpg"
+            alt="front view of MV Vistara"
           />
+          <h3>People occupying our home as they visit</h3>
         </div>
         <div class="col-md2">
           <img
             class="mw-100"
-            src="../assets/underconstruction (2).jpg"
-            alt="images of MV Vistara construction progess"
+            src="../assets/roadtovistara2.jpg"
+            alt="photo of beautiful lush green environment road which leads to MV Vistara"
           />
+          <h3>Road to MV VIstara (midst of Lush Green Environment)</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md2">
           <img
             class="mw-100"
-            src="../assets/underconstruction (3).jpg"
-            alt="images of MV Vistara construction progess"
+            src="../assets/carparkwide3.jpg"
+            alt="photo of wide car parking area"
           />
+          <h3>wide area for car parking</h3>
         </div>
         <div class="col-md2">
           <img
             class="mw-100"
-            src="../assets/underconstruction (4).jpg"
-            alt="images of MV Vistara construction progess"
+            src="../assets/8passengerlift.jpg"
+            alt="photo of 8 passenger lift and safety features/instructions"
           />
+          <h3>tired? have luggage? skip stairs and use the lift</h3>
         </div>
+      </div>
+    </div>
+    <div class="row c page-break">
+      <div class="col-md2">
+        <Card ctitle="Fortified View">
+          <div slot="cbody">
+            <img
+              src="@/assets/construction (3).jpg"
+              alt="Fortified look of MV Vistara"
+              class="mw-100"
+            />
+            <h3 class="d-center tac">wide and compact</h3>
+            <!-- <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p> -->
+          </div>
+          <div slot="cfooter"></div>
+        </Card>
+      </div>
+      <div class="col-md2 print-margin-top-medium">
+        <Card ctitle="Mighty Roof">
+          <div slot="cbody">
+            <img
+              src="@/assets/whitetilesroof2.jpg"
+              alt="Top view of the MV Vistara roof which has white tiles"
+              class="mw-100"
+            />
+            <h3 class="d-center tac">white tiles roof</h3>
+            <!-- <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p> -->
+          </div>
+          <div slot="cfooter"></div>
+        </Card>
       </div>
     </div>
   </div>

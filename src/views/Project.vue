@@ -21,10 +21,16 @@
       >
     </p>
     <div class="c page-break">
-      <h2 class="">Current Project:</h2>
+      <h2 class="">
+        Current Project: <span>(completed and ready to occupy)</span>
+      </h2>
       <div class="row c">
         <div class="col-md2">
-          <img src="@/assets/MV2.jpg" alt="" class="mw-100" />
+          <img
+            src="@/assets/MV2.jpg"
+            alt="image of mv vistara"
+            class="mw-100"
+          />
           <a class="vam mt2" href="/mvbuilders.pdf"
             ><img
               class="icon-small"
@@ -56,9 +62,24 @@
           </ul>
         </div>
       </div>
+      <div>
+        <p class="para c d-center">
+          <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 7
+          people registered and 2 people occupied their homes. Visit the home
+          and make it yours.
+          <router-link @click.native="$scrollToTop" to="/contact"
+            >Click Here for Contact details
+          </router-link>
+          or <a class="" href="tel:+919842430871">call +91 9842430871</a>
+        </p>
+      </div>
       <div class="row c">
         <h3 class="tac">Route Map</h3>
-        <img src="@/assets/map.jpg" alt="" class="mw-100 md-hide" />
+        <img
+          src="@/assets/map.jpg"
+          alt="image of navigation route map for mv vistara"
+          class="mw-100 md-hide"
+        />
         <iframe
           class="gmapvistara"
           src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3918.2907756125733!2d78.68257536474216!3d10.86547434226112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3baaf677a73db341%3A0x9722303799dcab1b!2sRanganayaki+Thaayaar+Sannadhi%2C+33%2C+N+Uthrai+St%2C+Sriramapuram%2C+Srirangam%2C+Tiruchirappalli%2C+Tamil+Nadu+620006!3m2!1d10.8639689!2d78.6890763!4m5!1s0x3baaf7c1b7e4dc59%3A0xaa1c44bdf6e1e003!2sMV+Vistara%2C+Srirangam%2C+Tamil+Nadu+620006!3m2!1d10.8681444!2d78.68073059999999!5e0!3m2!1sen!2sin!4v1545022870236"
@@ -72,11 +93,57 @@
       <div class="row c page-break">
         <div class="col-md2">
           <h3 class="tac">Floor Plan</h3>
-          <img src="@/assets/int.jpg" alt="" class="mw-100" />
+          <img
+            src="@/assets/int.jpg"
+            alt="image of floor plan design"
+            class="mw-100"
+          />
+        </div>
+        <div class="col-md2">
+          <h3 class="tac">Modular Kitchen</h3>
+          <img
+            src="@/assets/kitchen.jpg"
+            alt="photo of constructed modular kitchen"
+            class="mw-100"
+          />
+        </div>
+      </div>
+
+      <div class="row c page-break">
+        <div class="col-md2">
+          <h3 class="tac">Hall Design (Ceiling)</h3>
+          <img
+            src="@/assets/hall.jpg"
+            alt="photo of hall design with ceiling"
+            class="mw-100"
+          />
+        </div>
+        <div class="col-md2">
+          <h3 class="tac">Bedroom Design (Wardrobe)</h3>
+          <img
+            src="@/assets/bedroom.jpg"
+            alt="photo of bedroom design with wardrobe"
+            class="mw-100"
+          />
+        </div>
+      </div>
+
+      <div class="row c page-break">
+        <div class="col-md2">
+          <h3 class="tac">Car Parking Plan</h3>
+          <img
+            src="@/assets/car_parking.jpg"
+            alt="image of car parking design plan"
+            class="mw-100"
+          />
         </div>
         <div class="col-md2">
           <h3 class="tac">Car Parking</h3>
-          <img src="@/assets/car_parking.jpg" alt="" class="mw-100" />
+          <img
+            src="@/assets/carparkwide2.jpg"
+            alt="photo of car parking"
+            class="mw-100"
+          />
         </div>
       </div>
       <h2 class="hero-margin">Completed Projects</h2>

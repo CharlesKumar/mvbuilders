@@ -49,6 +49,17 @@
         </ul>
       </div>
     </div>
+    <div>
+      <p class="para c d-center">
+        <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 7
+        people registered and 2 people occupied their homes. Visit the home and
+        make it yours.
+        <router-link @click.native="$scrollToTop" to="/contact"
+          >Click Here for Contact details
+        </router-link>
+        or <a class="" href="tel:+919842430871">call +91 9842430871</a>
+      </p>
+    </div>
     <div class="c">
       <iframe
         class="gmapvistara"
@@ -59,32 +70,7 @@
         allowfullscreen
       ></iframe>
     </div>
-    <!-- <div class="row">
-      <div class="col-md2">
-        <Card ctitle="Pleasant Atmosphere">
-          <div slot="cbody">
-            <img src="@/assets/mvpranavm.jpg" alt="" class="mw-100">
-            <h2 class="d-center tac">MV Pranavm</h2>
-            <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p>
-          </div>
-          <div slot="cfooter">
 
-          </div>
-        </Card>
-      </div>
-      <div class="col-md2">
-        <Card ctitle="Green Environment">
-          <div slot="cbody">
-             <img src="@/assets/aparajitha.jpg" alt="" class="mw-100">
-             <h2 class="d-center tac">Aparajitha</h2>
-             <p class="taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum numquam iusto enim magni sint necessitatibus placeat asperiores ipsa sit dolorem, fugiat aperiam eaque recusandae quibusdam quod debitis nesciunt nostrum veniam.</p>
-          </div>
-          <div slot="cfooter">
-
-          </div>
-        </Card>
-      </div>
-    </div> -->
     <h2 class="c page-break">Words from our customers</h2>
     <div :key="componentKey" class="c review-slider print-small">
       <!-- window.innerWidth on slides instead of w-100p -->
@@ -110,7 +96,7 @@
         <Review :reviews="reviews[1]"></Review>
       </div> -->
     </div>
-    <!-- <img src="@/assets/main_cover.jpg" alt="" class=""> -->
+    <!-- <img src="@/assets/main_cover.jpg" alt="image of Srirangam Temple" class=""> -->
     <div
       class="h-500 page-break"
       style="background: url('/main_cover.jpg') 30% 0% no-repeat; background-size: cover;"
