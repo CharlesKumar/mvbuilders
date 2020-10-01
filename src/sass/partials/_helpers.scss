@@ -234,12 +234,18 @@
 }
 
 .list-checked {
-  list-style-image: url("/checked.png");
-  span {
-    display: inline-block;
-    vertical-align: top;
-    padding-bottom: 5px;
-    line-height: 2;
+  // list-style-image: url("/checked.png");
+  list-style: none;
+  li {
+    background:url("/checked.png") no-repeat 0 2px;
+    padding-left: 36px; /* the width of your image + some space */
+    margin: 3px 0;
+    span {
+      display: inline-block;
+      vertical-align: top;
+      padding-bottom: 5px;
+      line-height: 2;
+    }
   }
 }
 

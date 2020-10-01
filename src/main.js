@@ -19,7 +19,8 @@ new Vue({
   head: {
     title: {
       inner: "MV Builders - Srirangam",
-      seperator: "-"
+      seperator: "-",
+      complement: "Happy homes in lush green environment"
     },
     meta: [
       {
@@ -36,9 +37,12 @@ new Vue({
     // document.getElementById('scroll-top').onclick = function() {
     //   zenscroll.to(0);
     // };
-    document.getElementById("scroll-top").addEventListener("click", function() {
-      zenscroll.to(document.getElementById("app"));
-    });
+    document
+      .getElementById("scroll-top")
+      .addEventListener("click", function(e) {
+        e.preventDefault();
+        zenscroll.to(document.getElementById("app"));
+      });
   },
   render: h => h(App)
 }).$mount("#app");

@@ -57,9 +57,14 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
   let navT = document.querySelector("#mm-toggle");
-  if (navT.classList.contains("menu-active")) {
-    navT.click();
+  if (typeof navT != "undefined" && navT != null) {
+    if (navT.classList.contains("menu-active")) {
+      navT.click();
+    }
+  } else {
+    console.log("Router navT has issues");
   }
+
   // console.log(document.querySelector('#mm-toggle').classList.remove('menu-active'));
   next();
 });

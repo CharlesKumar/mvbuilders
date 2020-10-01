@@ -33,10 +33,11 @@
           />
           <a class="vam mt2" href="/mvbuilders.pdf"
             ><img
-              class="icon-small"
+              width="50"
+              height="60"
               src="@/assets/pdf_file.png"
               alt="pdf file icon"
-            /><span class="vam fz-140p">Download MV Vistara Brochure</span></a
+            /><span class="vab fz-140p">Download MV Vistara Brochure</span></a
           >
         </div>
         <div class="col-md2">
@@ -81,6 +82,7 @@
           class="mw-100 md-hide"
         />
         <iframe
+          title="google map of MV Vistara"
           class="gmapvistara"
           src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3918.2907756125733!2d78.68257536474216!3d10.86547434226112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3baaf677a73db341%3A0x9722303799dcab1b!2sRanganayaki+Thaayaar+Sannadhi%2C+33%2C+N+Uthrai+St%2C+Sriramapuram%2C+Srirangam%2C+Tiruchirappalli%2C+Tamil+Nadu+620006!3m2!1d10.8639689!2d78.6890763!4m5!1s0x3baaf7c1b7e4dc59%3A0xaa1c44bdf6e1e003!2sMV+Vistara%2C+Srirangam%2C+Tamil+Nadu+620006!3m2!1d10.8681444!2d78.68073059999999!5e0!3m2!1sen!2sin!4v1545022870236"
           height="450"

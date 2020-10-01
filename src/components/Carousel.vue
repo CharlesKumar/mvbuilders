@@ -34,6 +34,8 @@ export default {
       autoplayButtonOutput: false,
       autoHeight: false,
       nav: false,
+      speed: 0,
+      autoplayTimeout: 7000,
       // fixedWidth: 1200,
       // autoWidth: false,
       // slideBy: "page",

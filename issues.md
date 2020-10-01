@@ -47,4 +47,45 @@ https://developers.google.com/search/docs/guides/submit-URLs
 
 ---- strategy to remove vbdropper
 
-remove vbscript manually which is after the end of html tag in each file.
+remove vbscript manually which is after the end of html tag in each file. (total 360 worked like a charm)
+
+---- check if a html element exists
+
+if(typeof(element) != 'undefined' && element != null){
+        alert('Element exists!');
+    } else{
+        alert('Element does not exist!');
+    }
+
+---- empty buttons (WAVE accessibility)
+&#160; &nbsp; ()&#160;.&nbsp;)
+
+https://stackoverflow.com/questions/10835500/how-to-change-text-transparency-in-html-css
+
+opacity applies to the whole element, so if you have a background, border or other effects on that element, those will also become transparent. If you only want the text to be transparent, use rgba.
+
+#foo {
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+
+---- list style image
+
+The list-style property is a bit problematic in IE (minus IE8). Instead make it a background image, disable the default list style, add a padding to accomodate for the image width, and the space between your bullet image and the text, then adjust your image with positioning the background to your liking.
+
+.list_links ul {
+    list-style:none;
+}
+
+.list_links li {
+     background:url(bullet.png) no-repeat left center;
+     padding-left: (n)px; /* the width of your image + some space */
+     margin: 3px 0;
+}
+
+Or, for even more control:
+
+.list_links li {
+     background:url(bullet.png) no-repeat 0 (n)px;
+     padding-left: (n)px; /* the width of your image + some space */
+     margin: 3px 0;
+}

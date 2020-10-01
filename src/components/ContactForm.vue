@@ -33,9 +33,11 @@
         class="mb3 mt3 p2 transparent-bg"
         id="cf-msg"
         name="message"
+        aria-label="email message"
         rows="8"
         cols="80"
         minlength="10"
+        placeholder="type your brief and quick message here"
         required
       ></textarea>
       <input
