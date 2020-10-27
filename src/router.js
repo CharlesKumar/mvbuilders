@@ -62,7 +62,7 @@ router.beforeEach((to, from, next) => {
       navT.click();
     }
   } else {
-    console.log("Router navT has issues");
+    // console.log("Router navT has issues");
   }
 
   // console.log(document.querySelector('#mm-toggle').classList.remove('menu-active'));

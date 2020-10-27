@@ -60,7 +60,8 @@ export default {
 @media all and (max-width: 480px) {
   .slider__caption,
   .slider__heading {
-    opacity: 0.1;
+    // opacity: 0.1;
+    font-size: 80%;
   }
 }
 

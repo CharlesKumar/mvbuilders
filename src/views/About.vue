@@ -202,9 +202,8 @@
         Our Latest Project, MV VIstara is completed construction in the midst of
         <span class="fz-120p c-green nowrap-text">Lush Green Environment</span>.
         MV Vistara consists of 20 homes with wide parking area, 8 passenger lift
-        facility, copious continuos water supply, etc., Two families already
-        occupied the home, 7 people registered the home and 13 homes are ready
-        to be occupied. <br />
+        facility, copious continuos water supply, etc., 15 people already
+        registered the home and only 5 homes are ready to be occupied. <br />
         <span class="fz-140p c-red nowrap-text">Hurry up!</span> Visit the home
         and make it yours.
         <router-link @click.native="$scrollToTop" to="/contact"
@@ -230,19 +229,21 @@
           <h3>Road to MV VIstara (midst of Lush Green Environment)</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row img-bp-gallery">
         <div class="col-md2">
           <img
-            class="mw-100"
-            src="../assets/carparkwide3.jpg"
+            class="mw-100 img-bp"
+            src="../assets/carparkwide3m.jpg"
+            data-bp="/carparkwide3.jpg"
             alt="photo of wide car parking area"
           />
           <h3>wide area for car parking</h3>
         </div>
         <div class="col-md2">
           <img
-            class="mw-100"
-            src="../assets/8passengerlift.jpg"
+            class="mw-100 img-bp"
+            src="../assets/8passengerliftm.jpg"
+            data-bp="/8passengerlift.jpg"
             alt="photo of 8 passenger lift and safety features/instructions"
           />
           <h3>tired? have luggage? skip stairs and use the lift</h3>
@@ -293,11 +294,26 @@ export default {
   },
   mounted() {
     document.getElementById("about-page").onclick = function(e) {
-      (e.target.tagName === "IMG" ||
-        e.target.className === "background-image") &&
+      if (
+        (e.target.tagName === "IMG" &&
+          !e.target.classList.contains("img-bp")) ||
+        e.target.className === "background-image"
+      )
         BigPicture({
           el: e.target
         });
+    };
+    document.getElementsByClassName("img-bp-gallery")[0].onclick = function(e) {
+      console.log(e);
+      if (e.target.tagName === "IMG" && e.target.classList.contains("img-bp"))
+        BigPicture(
+          {
+            el: e.target,
+            gallery: document.querySelectorAll(".img-bp"),
+            loop: true
+          },
+          true
+        );
     };
   }
 };

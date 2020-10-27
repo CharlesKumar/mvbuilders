@@ -17,7 +17,7 @@
     </div>
     <div class="row c">
       <div class="col-md2">
-        <img src="@/assets/MV2.jpg" alt="image of MV Vistara" class="mw-100" />
+        <img src="@/assets/mvbm.jpg" alt="image of MV Vistara" class="mw-100" />
         <a class="vam mt2" href="/mvbuilders.pdf"
           ><img
             width="50"
@@ -52,8 +52,8 @@
     </div>
     <div>
       <p class="para c d-center">
-        <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 7
-        people registered and 2 people occupied their homes. Visit the home and
+        <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 15
+        people registered and only 5 homes left for sale. Visit the home and
         make it yours.
         <router-link @click.native="$scrollToTop" to="/contact"
           >Click Here for Contact details

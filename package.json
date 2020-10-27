@@ -8,12 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bigpicture": "^2.4.0",
+    "bigpicture": "^2.5.3",
     "include-media": "^1.4.9",
-    "tiny-slider": "^2.9.2",
+    "tiny-slider": "^2.9.3",
     "typesettings": "^4.0.0",
     "validate.js": "^0.12.0",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-head": "^2.2.0",
     "vue-headroom": "^0.9.0",
     "vue-router": "^3.3.2",
@@ -32,7 +32,7 @@
     "prerender-spa-plugin": "^3.4.0",
     "sass-loader": "^7.3.1",
     "vue-cli-plugin-prerender-spa": "^1.1.6",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.12"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

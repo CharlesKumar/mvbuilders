@@ -27,9 +27,10 @@
       <div class="row c">
         <div class="col-md2">
           <img
-            src="@/assets/MV2.jpg"
+            src="@/assets/mvbm.jpg"
+            data-bp="/mvb.jpg"
             alt="image of mv vistara"
-            class="mw-100"
+            class="mw-100 img-bp"
           />
           <a class="vam mt2" href="/mvbuilders.pdf"
             ><img
@@ -65,9 +66,9 @@
       </div>
       <div>
         <p class="para c d-center">
-          <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 7
-          people registered and 2 people occupied their homes. Visit the home
-          and make it yours.
+          <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 15
+          people registered and only 5 homes left for sale. Visit the home and
+          make it yours.
           <router-link @click.native="$scrollToTop" to="/contact"
             >Click Here for Contact details
           </router-link>
@@ -96,17 +97,19 @@
         <div class="col-md2">
           <h3 class="tac">Floor Plan</h3>
           <img
-            src="@/assets/int.jpg"
+            src="@/assets/intm.jpg"
+            data-bp="/int.jpg"
             alt="image of floor plan design"
-            class="mw-100"
+            class="mw-100 img-bp"
           />
         </div>
         <div class="col-md2">
           <h3 class="tac">Modular Kitchen</h3>
           <img
-            src="@/assets/kitchen.jpg"
+            src="@/assets/kitchenm.jpg"
+            data-bp="/kitchen.jpg"
             alt="photo of constructed modular kitchen"
-            class="mw-100"
+            class="mw-100 img-bp"
           />
         </div>
       </div>
@@ -134,17 +137,19 @@
         <div class="col-md2">
           <h3 class="tac">Car Parking Plan</h3>
           <img
-            src="@/assets/car_parking.jpg"
+            src="@/assets/car_parkingm.jpg"
+            data-bp="/car_parking.jpg"
             alt="image of car parking design plan"
-            class="mw-100"
+            class="mw-100 img-bp"
           />
         </div>
         <div class="col-md2">
           <h3 class="tac">Car Parking</h3>
           <img
-            src="@/assets/carparkwide2.jpg"
+            src="@/assets/carparkwide2m.jpg"
+            data-bp="/carparkwide2.jpg"
             alt="photo of car parking"
-            class="mw-100"
+            class="mw-100 img-bp"
           />
         </div>
       </div>
@@ -328,11 +333,23 @@ export default {
     //   });
     // }
     document.getElementById("project-page").onclick = function(e) {
-      (e.target.tagName === "IMG" ||
-        e.target.className === "background-image") &&
+      if (
+        e.target.tagName === "IMG" &&
+        !e.target.classList.contains("img-bp")
+      ) {
         BigPicture({
           el: e.target
         });
+      } else if (
+        e.target.tagName === "IMG" &&
+        e.target.classList.contains("img-bp")
+      ) {
+        BigPicture({
+          el: e.target,
+          gallery: document.querySelectorAll(".img-bp"),
+          loop: true
+        });
+      }
     };
   }
 };

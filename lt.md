@@ -50,5 +50,24 @@ accessibility insights
 lighthouse
 https://www.w3.org/WAI/tutorials/forms/labels/
 
----= workflow
+---- workflow
 images - compresspng.com (elephant) compressjpeg.com
+
+
+---- Type
+HTMLHtmlElement
+HTMLHeadElement
+HTMLBodyElement
+HTMLScriptElement
+HTMLHeadingElement
+HTMLUListElement
+HTMLLIElement
+HTMLAnchorElement
+HTMLParagraphElement
+HTMLSpanElement
+HTMLElement
+HTMLDListElement
+HTMLTableElement
+HTMLTableSectionElement
+HTMLTableRowElement
+HTMLTableCellElement

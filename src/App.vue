@@ -11,7 +11,7 @@
                 alt="logo of mvbuilders"
                 id="logo"
               />
-              <h3 class="times ml1 ttu">Builders</h3>
+              <h3 id="logo-text" class="times ml1 ttu">Builders</h3>
             </div>
             <span id="sbs" style="display: block;">Building Happy Homes</span>
           </div>
@@ -167,6 +167,10 @@
 }
 
 @media all and (max-width: 768px) {
+  #sbs,
+  #logo-text {
+    font-size: 80%;
+  }
   #sbs {
     left: 45px;
   }
