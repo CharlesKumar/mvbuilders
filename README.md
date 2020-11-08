@@ -27,6 +27,16 @@ npm run lint
 
 # Changelog
 
+## 0.4.0 november print helper theme struggle
+
+* found html div closing mismatch in about page
+* new print event handling and theme ideas 
+
+## 0.3.0 october 2020 image optimization
+
+* updated vue, bigpicture, tinyslider and vue-template-compiler
+* two instance of BigPicture on the same page works as expected
+
 ## 0.2.0 septembet struggle 2020 commit
 
 * vendor and contactform removal from git tracking

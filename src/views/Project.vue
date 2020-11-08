@@ -64,11 +64,13 @@
           </ul>
         </div>
       </div>
-      <div>
-        <p class="para c d-center">
-          <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 15
-          people registered and only 5 homes left for sale. Visit the home and
-          make it yours.
+      <div class="c theme-2">
+        <h1 class="c-red ml3 pl3 pulse-grow pb3 mb3">Hurry Up ! Buy Now</h1>
+        <p class="fz-160p pl3 ml3">
+          <!--<span class="fz-160p c-red nowrap-text">Hurry up!</span>-->
+          Already 17 people registered their home in MV Vistara and
+          <span class="c-green">only 3 homes left</span> for sale. Visit the
+          home and make it yours.
           <router-link @click.native="$scrollToTop" to="/contact"
             >Click Here for Contact details
           </router-link>

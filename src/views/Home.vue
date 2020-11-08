@@ -15,6 +15,19 @@
         <small class="times">MV Vistara Homes</small>
       </h2>
     </div>
+    <div class="c theme-2">
+      <h1 class="c-red ml3 pl3 pulse-grow pb3 mb3">Hurry Up ! Buy Now</h1>
+      <p class="fz-160p pl3 ml3">
+        <!--<span class="fz-160p c-red nowrap-text">Hurry up!</span>-->
+        Already 17 people registered their home in MV Vistara and
+        <span class="c-green">only 3 homes left</span> for sale. Visit the home
+        and make it yours.
+        <router-link @click.native="$scrollToTop" to="/contact"
+          >Click Here for Contact details
+        </router-link>
+        or <a class="" href="tel:+919842430871">call +91 9842430871</a>
+      </p>
+    </div>
     <div class="row c">
       <div class="col-md2">
         <img src="@/assets/mvbm.jpg" alt="image of MV Vistara" class="mw-100" />
@@ -49,17 +62,6 @@
           <li><span>3km from Government Butterfly Park.</span></li>
         </ul>
       </div>
-    </div>
-    <div>
-      <p class="para c d-center">
-        <span class="fz-160p c-red nowrap-text">Hurry up!</span> Already 15
-        people registered and only 5 homes left for sale. Visit the home and
-        make it yours.
-        <router-link @click.native="$scrollToTop" to="/contact"
-          >Click Here for Contact details
-        </router-link>
-        or <a class="" href="tel:+919842430871">call +91 9842430871</a>
-      </p>
     </div>
     <div class="c">
       <iframe
@@ -212,13 +214,36 @@ export default {
       }
     });
 
-    let printMQL = window.matchMedia("print");
+    // let printMQL = window.matchMedia("print");
 
-    printMQL.addListener(function(mql) {
-      if (mql.matches) {
-        reviewSlider.destroy();
-      }
-    });
+    // addListener is for backward compatibility use addEventListener
+    // printMQL.addListener(function(mql) {
+    //   console.log(new Error().stack);
+    //   if (mql.matches) {
+    //     reviewSlider.destroy();
+    //   }
+    // });
+
+    // printMQL.addEventListener("change", () => {
+    //   reviewSlider.destroy();
+    // });
+
+    // printMQL.onchange = function(mql) {
+    //   alert("hello onpmql" + Date.now());
+    //   console.trace();
+    //   console.log(new Error().lineNumber || new Error().stack)
+    //   if (mql.matches) {
+    //     reviewSlider.destroy();
+    //   }
+    // }
+
+    window.onbeforeprint = function() {
+      reviewSlider.destroy();
+    };
+
+    window.onafterprint = function() {
+      reviewSlider.rebuild();
+    };
 
     // try vue js component reload
     var that = this;

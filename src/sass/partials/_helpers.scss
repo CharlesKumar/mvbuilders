@@ -73,7 +73,9 @@
 }
 
 .fz-160p {
-  font-size: 160%;
+  @include media(">tablet") {
+    font-size: 160%;
+  }
 }
 
 .flex {
@@ -236,6 +238,8 @@
 .list-checked {
   // list-style-image: url("/checked.png");
   list-style: none;
+  margin: 0;
+  padding: 0;
   li {
     background:url("/checked.png") no-repeat 0 2px;
     padding-left: 36px; /* the width of your image + some space */

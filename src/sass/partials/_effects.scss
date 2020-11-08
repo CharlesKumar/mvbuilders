@@ -11,3 +11,34 @@
 .strict-bg {
   background-color: #000 !important;
 }
+
+.pulse-grow {
+  animation: pulse 7s infinite;
+}
+
+@keyframes pulse {
+  0% {
+/*     background-color: #001F3F; */
+/*     font-size: 160%; */
+    opacity: 1;
+  }
+   10% {
+/*     background-color: #1FFF3F; */
+/*      font-size: 100%; */
+     opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+/*     background-color: #FF4136; */
+/*     font-size: 160%; */
+    opacity: 1;
+  }
+}
